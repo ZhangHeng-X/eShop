@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/eShop/static/js/main.fd4b0db8.chunk.js",
+    "main.js.map": "/eShop/static/js/main.fd4b0db8.chunk.js.map",
+    "runtime-main.js": "/eShop/static/js/runtime-main.88aa9a20.js",
+    "runtime-main.js.map": "/eShop/static/js/runtime-main.88aa9a20.js.map",
+    "static/css/2.5f4bad90.chunk.css": "/eShop/static/css/2.5f4bad90.chunk.css",
+    "static/js/2.41f5055e.chunk.js": "/eShop/static/js/2.41f5055e.chunk.js",
+    "static/js/2.41f5055e.chunk.js.map": "/eShop/static/js/2.41f5055e.chunk.js.map",
+    "index.html": "/eShop/index.html",
+    "precache-manifest.5f2df57db450c1586b963a74405c78b4.js": "/eShop/precache-manifest.5f2df57db450c1586b963a74405c78b4.js",
+    "service-worker.js": "/eShop/service-worker.js",
+    "static/css/2.5f4bad90.chunk.css.map": "/eShop/static/css/2.5f4bad90.chunk.css.map",
+    "static/js/2.41f5055e.chunk.js.LICENSE.txt": "/eShop/static/js/2.41f5055e.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/eShop/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/logo.jpg": "/eShop/static/media/logo.679227ec.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88aa9a20.js",
+    "static/css/2.5f4bad90.chunk.css",
+    "static/js/2.41f5055e.chunk.js",
+    "static/js/main.fd4b0db8.chunk.js"
+  ]
+}
