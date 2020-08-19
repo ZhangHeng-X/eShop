@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 import axios from 'axios';
 
 // Publick 公用组件
-//import Header from '../components/header/Header';
+import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 
 // Home 首页组件
@@ -73,12 +73,7 @@ class RouteApp extends React.Component {
     return(
       <Router>
         <div id='body'>
-          <Route children={({location})=>{
-            return(
-              //<Header location={location} cart={cart}/>
-              <h1>Header</h1>
-            )
-          }}/>
+          <Route component={Header}/>
           {/*
           <Switch>
             <Redirect from='/home' to='/' />

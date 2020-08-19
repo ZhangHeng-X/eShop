@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import HeaderToolWrapper from './HeaderToolWrapper';
+//import HeaderToolWrapper from './HeaderToolWrapper';
 import HeaderBrand from './HeaderBrand';
-import HeaderNavigation from '../nav/HeaderMenu.js';
+//import HeaderNavigation from '../nav/HeaderMenu.js';
 import HeaderDivider from './HeaderDivider';
-import 'assets/style/header.scss';
+import PT from 'prop-types'
 
 const propTypes = {
   cart: PT.arrayOf(PT.object)
@@ -19,10 +19,8 @@ const Header = (props) => {
   } = props;
   return(
     <header>
-      <HeaderToolWrapper cart={cart}/>
       <HeaderBrand/>
-      <Route component={HeaderNavigation}/>
-      {pathname !== '/'? <Route component={HeaderDivider}/> : '' }
+      {pathname !== '/'?  <Route component={HeaderDivider}/> : '' }
     </header>
   )
 }

@@ -5,7 +5,7 @@ import RouteApp from './router/Route';
 import 'semantic-ui-css/semantic.min.css'
 
 ReactDOM.render(
-      <RouteApp />,
+    <RouteApp />,
   document.getElementById('root')
 );
 
