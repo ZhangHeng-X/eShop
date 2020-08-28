@@ -1,8 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import React from 'react';
 
-// All route props (match, location and history) are available to User
-export default function User(props) {
-  return <h1>Hello {props.match.params.username}!</h1>;
+function App() {
+  return (
+    <button value="hello!" onClick={e => alert(e.target.value)}>
+      Click me!
+    </button>
+  );
 }
+
+export default App;

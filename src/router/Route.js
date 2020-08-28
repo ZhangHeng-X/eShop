@@ -7,7 +7,7 @@ import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 
 // Home 首页组件
-//import Home from '../components/home/HomeContainer';
+import Home from '../components/home/HomeContainer';
 
 // Classification 分类页组件
 //import FilterSite from '../components/main/FilterSite';
@@ -50,8 +50,8 @@ class RouteApp extends React.Component {
     .get('http://localhost:8080/src/data/userdata.json')
     .then(res=> {
       res.data.forEach(function(item,index){
-        if(item.email != email)return;
-        if(item.password != password)return;
+        if(item.email !== email)return;
+        if(item.password !== password)return;
         _this.setState({isLogin:true});
       })
     })
@@ -74,6 +74,11 @@ class RouteApp extends React.Component {
       <Router>
         <div id='body'>
           <Route component={Header}/>
+          <Switch>
+            <Redirect from='/home' to='/' />
+            <Route exact path='/' component={Home} />
+
+          </Switch>
           {/*
           <Switch>
             <Redirect from='/home' to='/' />

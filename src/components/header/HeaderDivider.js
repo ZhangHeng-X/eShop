@@ -5,11 +5,10 @@ import { Divider } from 'semantic-ui-react';
 const HeaderDivider = (props) => {
 
   const secondary = props.location.pathname.match(/\/[a-z]+/)[0].substr(1);
-  console.log(secondary)
 
   return(
     <Divider id='header-divider' horizontal>
-      <Link to='/'>iGo.com</Link>
+      <Link to='/'>eShop.com</Link>
       {" / "}
       <span>{secondary}</span>
     </Divider>
