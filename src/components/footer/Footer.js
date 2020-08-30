@@ -6,6 +6,7 @@ import FooterCopyright from './FooterCopyright';
 
 const Footer = () => (
 <footer id='footer'>
+    <Divider section/>
     <FootMenu/>
     <Divider section/>
     <FooterSocialInfo/>

@@ -19,7 +19,8 @@ import SearchSite from '../components/main/SearchSite';
 //import ProductDetailSite from '../components/product/ProductDetailSite';
 
 // Cart 购物车组件
-//import CartSite from '../components/cart/CartSite';
+import CartSite from '../components/cart/CartSite.js';
+import { func } from 'prop-types';
 
 // Register & Login 登录注册组件
 //import LoginSite from '../components/user/LoginSite';
@@ -47,7 +48,7 @@ class RouteApp extends React.Component {
     const _this = this;
 
     axios
-    .get('http://localhost:8080/src/data/userdata.json')
+    .get('/data/userdata.json')
     .then(res=> {
       res.data.forEach(function(item,index){
         if(item.email !== email)return;
@@ -78,6 +79,9 @@ class RouteApp extends React.Component {
             <Redirect from='/home' to='/' />
             <Route exact path='/' component={Home} />
             <Route path='/search' component={SearchSite} />
+            <Route path='/cart' children={() => {
+              return (<CartSite isLogin={isLogin} cart={cart} handleLogin={handleLogin} />)
+            }} />
           </Switch>
           {/*
           <Switch>
