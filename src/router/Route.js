@@ -16,15 +16,14 @@ import Home from '../components/home/HomeContainer';
 import SearchSite from '../components/main/SearchSite';
 
 // Detail 商品详情页组件
-//import ProductDetailSite from '../components/product/ProductDetailSite';
+import ProductDetailSite from '../components/product/ProductDetailSite';
 
 // Cart 购物车组件
 import CartSite from '../components/cart/CartSite.js';
-import { func } from 'prop-types';
 
 // Register & Login 登录注册组件
-//import LoginSite from '../components/user/LoginSite';
-//import RegisterSite from '../components/user/RegisterSite';
+import LoginSite from '../components/user/LoginSite';
+import RegisterSite from '../components/user/RegisterSite';
 
 class RouteApp extends React.Component {
 
@@ -81,6 +80,13 @@ class RouteApp extends React.Component {
             <Route path='/search' component={SearchSite} />
             <Route path='/cart' children={() => {
               return (<CartSite isLogin={isLogin} cart={cart} handleLogin={handleLogin} />)
+            }} />
+            <Route path='/login' children={() => {
+              return ( <LoginSite isLogin={isLogin} handleLogin={handleLogin} />)
+            }} />
+            <Route path='/register' component={RegisterSite} />
+            <Route path='/:category/:type/:id' children={()=>{
+              return(<ProductDetailSite handleAddToCart={handleAddToCart}/>)
             }} />
           </Switch>
           {/*
