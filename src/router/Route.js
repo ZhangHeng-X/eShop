@@ -13,7 +13,7 @@ import Home from '../components/home/HomeContainer';
 //import FilterSite from '../components/main/FilterSite';
 
 // Search 搜索页组件
-//import SearchSite from '../components/main/SearchSite';
+import SearchSite from '../components/main/SearchSite';
 
 // Detail 商品详情页组件
 //import ProductDetailSite from '../components/product/ProductDetailSite';
@@ -77,7 +77,7 @@ class RouteApp extends React.Component {
           <Switch>
             <Redirect from='/home' to='/' />
             <Route exact path='/' component={Home} />
-
+            <Route path='/search' component={SearchSite} />
           </Switch>
           {/*
           <Switch>

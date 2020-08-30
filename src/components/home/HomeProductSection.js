@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Button } from 'semantic-ui-react';
-//import ShowcaseHeader from '../header/ShowcaseHeader.js';
+import ShowcaseHeader from '../header/ShowcaseHeader.js';
 import ProductItem from '../main/ProductItem.js';
 import axios from 'axios';
 import hotSaleData from '../../data/productData/hotSale.json'
@@ -57,11 +57,11 @@ class HomeProductSection extends Component {
     return (
       <Grid id='hot-products' textAlign='center'>
         <Grid.Column width={13}>
-          {/*<ShowcaseHeader
+          <ShowcaseHeader
             headerMain='FEATURE PRODUCTS'
             headerSub='Best Collection fo You'
             iconHeader='gift'
-          /> */}
+          /> 
           <div id="product-list">
             {itemsProductCard}
             {isReadMore?itemsProductCard:''}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-//import HeaderToolWrapper from './HeaderToolWrapper';
+import HeaderToolContainer from './HeaderToolContainer';
 import HeaderBrand from './HeaderBrand';
 import HeaderNavigation from '../nav/HeaderMenu.js';
 import HeaderDivider from './HeaderDivider';
@@ -19,6 +19,7 @@ const Header = (props) => {
   } = props;
   return(
     <header>
+      <HeaderToolContainer cart={cart}/>
       <HeaderBrand/>
       <Route component={HeaderNavigation}/>
       {pathname !== '/'?  <Route component={HeaderDivider}/> : '' }

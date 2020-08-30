@@ -29,7 +29,7 @@ const ProductItem = (props) => {
   return(
     <Card className='product-info'>
       <Link to={`/${category}/${type}/${id}`} >
-        <Image className='pro-images' src={require('../../data/productImages'+images.imgProduct)} />
+        <Image className='pro-images' src={require('../../../public'+images.imgProduct.substring(12))} />
       </Link>
       <Card.Content className='pro-info'>
         <Card.Header as='h4'>
