@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Grid, Button } from 'semantic-ui-react';
+import { Grid, Button, Card } from 'semantic-ui-react';
 import ShowcaseHeader from '../header/ShowcaseHeader.js';
 import ProductItem from '../main/ProductItem.js';
 import axios from 'axios';
 import hotSaleData from '../../data/productData/hotSale.json'
+import '../product/product.css'
 
 class HomeProductSection extends Component {
 
@@ -62,10 +63,10 @@ class HomeProductSection extends Component {
             headerSub='Best Collection fo You'
             iconHeader='gift'
           /> 
-          <div id="product-list">
+          <Card.Group id="product-list" itemsPerRow='6'>
             {itemsProductCard}
             {isReadMore?itemsProductCard:''}
-          </div>
+          </Card.Group>
           {!isReadMore?btnReadMore:''}
         </Grid.Column>
       </Grid>

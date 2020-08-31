@@ -4,6 +4,7 @@ import HeaderToolContainer from './HeaderToolContainer';
 import HeaderBrand from './HeaderBrand';
 import HeaderNavigation from '../nav/HeaderMenu.js';
 import HeaderDivider from './HeaderDivider';
+import './header.css'
 import PT from 'prop-types'
 
 const propTypes = {

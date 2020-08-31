@@ -1,0 +1,18 @@
+#footer {
+    background-color: lightgrey;
+    margin: 30px auto 0;
+    padding: 30px 10%;
+}
+
+#footer .social {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#footer .copyright {
+    margin: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

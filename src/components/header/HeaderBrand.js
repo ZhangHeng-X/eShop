@@ -11,7 +11,7 @@ const HeaderBrand = () => (
           <img src={logo} alt='eShop' width='25%'/>
         </Link>
       </Header.Content>
-      <Header.Content as='h2' className='brand-des'>
+      <Header.Content as='h4' className='brand-des'>
         eShop, Just buy it.
       </Header.Content>
   </Header>

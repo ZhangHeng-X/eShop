@@ -1,0 +1,15 @@
+#header-tool-wrap {
+    border-bottom:1px solid rgba(187,189,197,0.3);
+}
+
+#header-tool-wrap .header-tool .tool-btn {
+    background: transparent;
+}
+
+#header-tool-wrap .serach-bar .input {
+    border: 1px solid transparent;
+}
+
+.click-to-siginin a:hover{
+    color: white;
+  }

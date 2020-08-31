@@ -1,4 +1,5 @@
 import React from 'react';
+import {Card} from 'semantic-ui-react'
 import ProductItem from './ProductItem';
 import PT from 'prop-types';
 
@@ -23,9 +24,9 @@ const ProductList = (props) => {
   })
 
   return(
-    <div id='product-list'>
+    <Card.Group id='product-list'>
       {itemsProduct}
-    </div>
+    </Card.Group>
   )
 }
 
