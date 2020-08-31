@@ -25,7 +25,7 @@ const OrderItem = (props) => {
 
   return(
     <Item>
-      <Item.Image src={srcImg} />
+      <Item.Image src={require('../../../public'+srcImg.substring(12))} />
       <Item.Content className='item-content'>
         <Item.Header as='h3'>{name}</Item.Header>
         <Item.Header as='h4'>${salePrice}</Item.Header>

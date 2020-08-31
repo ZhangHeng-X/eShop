@@ -10,7 +10,7 @@ import Footer from '../components/footer/Footer';
 import Home from '../components/home/HomeContainer';
 
 // Classification 分类页组件
-//import FilterSite from '../components/main/FilterSite';
+import FilterSite from '../components/main/FilterSite';
 
 // Search 搜索页组件
 import SearchSite from '../components/main/SearchSite';
@@ -73,7 +73,9 @@ class RouteApp extends React.Component {
     return(
       <Router>
         <div id='body'>
-          <Route component={Header}/>
+          <Route render={(props)=>(
+            <Header {...props} cart={cart} />
+          )} />
           <Switch>
             <Redirect from='/home' to='/' />
             <Route exact path='/' component={Home} />
@@ -88,26 +90,10 @@ class RouteApp extends React.Component {
             <Route path='/:category/:type/:id' children={()=>{
               return(<ProductDetailSite handleAddToCart={handleAddToCart}/>)
             }} />
-          </Switch>
-          {/*
-          <Switch>
-            <Redirect from='/home' to='/' />
-            <Route exact path='/' component={Home} />
-            <Route path='/search' component={SearchSite} />
-            <Route path='/cart' children={()=>{
-              return(<CartSite isLogin={isLogin} cart={cart} handleLogin={handleLogin}/>)
-            }} />
-            <Route path='/login' children={()=>{
-              return(<LoginSite isLogin={isLogin} handleLogin={handleLogin}/>)
-            }} />
-            <Route path='/register' component={RegisterSite} />
-            <Route path='/:category/:type/**' children={()=>{
-              return(<ProductDetailSite handleAddToCart={handleAddToCart}/>)
-            }} />
             <Route path='/:category' component={FilterSite} />
             <Redirect from='*' to='/'  />
           </Switch>
-        */}
+
           <Route component={Footer}/>
         </div>
       </Router>

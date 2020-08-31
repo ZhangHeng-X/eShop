@@ -2,7 +2,7 @@ import React from 'react';
 import { Menu, Button, Icon } from 'semantic-ui-react';
 
 import PopupLogin from '../popup/PopupLogin';
-//import PopupCart from '../popup/PopupCart';
+import PopupCart from '../popup/PopupCart';
 
 const dataToolBtnsRight = [
   {
@@ -56,8 +56,7 @@ const ToolBar = (props) => {
         popupWrap = (btnTool);
         break;
       case 'cart':
-        //popupWrap = (<PopupCart cart={props.cart} btnTool={btnTool}/>);
-        popupWrap = (btnTool);
+        popupWrap = (<PopupCart cart={props.cart} btnTool={btnTool}/>);
         break;
     }
     return (
