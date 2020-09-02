@@ -3,17 +3,17 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 import axios from 'axios';
 
 // Publick 公用组件
-import Header from '../components/header/Header';
-import Footer from '../components/footer/Footer';
+import Header from '../components/header/header';
+import Footer from '../components/footer/footer';
 
 // Home 首页组件
-import Home from '../components/home/HomeContainer';
+import Home from '../components/home/home';
 
 // Classification 分类页组件
-import FilterSite from '../components/main/FilterSite';
+import CategoryPage from '../components/categoryPage/categoryPage';
 
 // Search 搜索页组件
-import SearchSite from '../components/main/SearchSite';
+import SearchPage from '../components/searchPage/searchPage';
 
 // Detail 商品详情页组件
 import ProductDetailSite from '../components/product/ProductDetailSite';
@@ -77,9 +77,9 @@ class RouteApp extends React.Component {
             <Header {...props} cart={cart} />
           )} />
           <Switch>
-            <Redirect from='/home' to='/' />
+            <Redirect from='/eShop' to='/' />
             <Route exact path='/' component={Home} />
-            <Route path='/search' component={SearchSite} />
+            <Route path='/search' component={SearchPage} />
             <Route path='/cart' children={() => {
               return (<CartSite isLogin={isLogin} cart={cart} handleLogin={handleLogin} />)
             }} />
@@ -90,7 +90,7 @@ class RouteApp extends React.Component {
             <Route path='/:category/:type/:id' children={()=>{
               return(<ProductDetailSite handleAddToCart={handleAddToCart}/>)
             }} />
-            <Route path='/:category' component={FilterSite} />
+            <Route path='/:category' component={CategoryPage} />
             <Redirect from='*' to='/'  />
           </Switch>
 

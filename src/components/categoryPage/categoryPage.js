@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { Grid } from 'semantic-ui-react';
-import SidebarMenu from '../nav/SidebarMenu';
-import ProductContainer from './ProductContainer';
+import CategorySidebar from './categorySidebar';
+import ProductContainer from '../productContainer/productContainer';
 import axios from 'axios';
 
 const CategoryBanner = (props) => {
@@ -10,7 +10,7 @@ const CategoryBanner = (props) => {
   <img src={require('../../../public/data/bannerImages'+ props.bannerPath +'Banner.jpg')}/>
 )}
 
-class FilterSite extends Component {
+class categoryPage extends Component {
 
   constructor(props) {
     super(props);
@@ -63,7 +63,7 @@ class FilterSite extends Component {
           <Route
             children={({ match, location }) => {
               return(
-                <SidebarMenu match={match} location={location} handleProList={handleProList}/>
+                <CategorySidebar match={match} location={location} handleProList={handleProList}/>
               )
             }}
           />
@@ -98,4 +98,4 @@ class FilterSite extends Component {
   }
 }
 
-export default FilterSite;
+export default categoryPage;

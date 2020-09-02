@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { NavLink, Link } from 'react-router-dom';
-import { Menu, Segment } from 'semantic-ui-react'
+import { Link } from 'react-router-dom';
+import { Menu } from 'semantic-ui-react'
 
 const dataHeaderMenu = ['men', 'ladies', 'kids'];
 

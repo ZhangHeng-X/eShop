@@ -3,7 +3,6 @@ import { Menu, Search } from 'semantic-ui-react'
 import axios from 'axios';
 
 class SearchBar extends Component {
-
   constructor(props){
     super(props);
     this.state = {
@@ -15,7 +14,6 @@ class SearchBar extends Component {
     this.handleResultSelect = this.handleResultSelect.bind(this);
     this.handleSearchChange = this.handleSearchChange.bind(this);
     this.handleSearching = this.handleSearching.bind(this);
-    this.handleReachClear = this.handleReachClear.bind(this);
   }
 
   componentDidMount() {
@@ -26,8 +24,8 @@ class SearchBar extends Component {
   }
 
   // 点击搜索结果现在在文本框内
-  handleResultSelect(e){
-    this.setState({ value: e.target.innerHTML })
+  handleResultSelect(e, {result}){
+    this.setState({ value: result.title })
   }
 
   handleSearchChange(e){
@@ -61,14 +59,6 @@ class SearchBar extends Component {
     window.location.href = '/search?' + e.target.value;
   }
 
-  handleReachClear(e){
-    this.setState({
-      isLoading: false,
-      results: [],
-      value: ''
-    })
-  }
-
   render() {
 
     const {
@@ -85,6 +75,7 @@ class SearchBar extends Component {
 
     return (
       <Menu.Menu position='right'>
+        <Menu.Item>
         <Search
           className='search-bar'
           placeholder='Search Products'
@@ -95,6 +86,7 @@ class SearchBar extends Component {
           results={results}
           value={value}
         />
+      </Menu.Item>
       </Menu.Menu>
     )
   }

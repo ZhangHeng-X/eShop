@@ -13,7 +13,7 @@ const propTypes = {
   handleProList: PT.func
 }
 
-class SidebarMenu extends Component {
+class CategorySidebar extends Component {
 
   constructor(props) {
     super(props);
@@ -97,6 +97,6 @@ class SidebarMenu extends Component {
   }
 }
 
-SidebarMenu.propTypes = propTypes;
+CategorySidebar.propTypes = propTypes;
 
-export default SidebarMenu;
+export default CategorySidebar;

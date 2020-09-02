@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import { Grid, Segment, Loader } from 'semantic-ui-react';
-import ProductContainer from './ProductContainer';
+import ProductContainer from '../productContainer/productContainer';
 import axios from 'axios';
 
-class SearchSite extends Component {
+class SearchPage extends Component {
 
   constructor(props) {
     super(props);
@@ -85,4 +85,4 @@ class SearchSite extends Component {
   }
 }
 
-export default SearchSite;
+export default SearchPage;

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card} from 'semantic-ui-react'
-import ProductItem from './ProductItem';
+import ProductItem from './productItem';
 import PT from 'prop-types';
 
 const propTypes = {
@@ -24,7 +24,7 @@ const ProductList = (props) => {
   })
 
   return(
-    <Card.Group id='product-list'>
+    <Card.Group id='product-list' centered>
       {itemsProduct}
     </Card.Group>
   )

@@ -1,15 +1,39 @@
-#header-tool-wrap {
-    border-bottom:1px solid rgba(187,189,197,0.3);
+#header-tool-wrap{
+    border-bottom: 1px solid rgba(187,189,197,0.3);
 }
 
-#header-tool-wrap .header-tool .tool-btn {
+#header-tool-wrap .tool-btn{
     background: transparent;
 }
 
-#header-tool-wrap .serach-bar .input {
-    border: 1px solid transparent;
+#header-brand img {
+    width: 10rem;
 }
 
-.click-to-siginin a:hover{
-    color: white;
-  }
+#header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 50;
+    height: 100px;
+    align-items: stretch;
+}
+
+
+#header-nav .nav-item {
+    height: 120px;
+    margin: 2rem;
+    padding: 0;
+    line-height: 120px;
+    background: transparent;
+}
+
+#header-nav .nav-item a{
+    display: inline-block;
+    height: 80px;
+    font-size: 16px;
+    line-height: 80px;
+    letter-spacing: 5px;
+}
+

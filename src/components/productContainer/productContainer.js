@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header, Dropdown, } from 'semantic-ui-react';
-import ProductList from './ProductList';
-import Pagination from './Pagination';
+import ProductList from './productList';
+import Pagination from './pagination';
 import PT from 'prop-types';
 
 
