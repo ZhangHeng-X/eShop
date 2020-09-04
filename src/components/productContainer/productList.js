@@ -24,7 +24,7 @@ const ProductList = (props) => {
   })
 
   return(
-    <Card.Group id='product-list' centered>
+    <Card.Group id='product-list' centered itemsPerRow='4'>
       {itemsProduct}
     </Card.Group>
   )

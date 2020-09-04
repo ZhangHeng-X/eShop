@@ -16,7 +16,7 @@ import CategoryPage from '../components/categoryPage/categoryPage';
 import SearchPage from '../components/searchPage/searchPage';
 
 // Detail 商品详情页组件
-import ProductDetailSite from '../components/product/ProductDetailSite';
+import ProductDetailPage from '../components/productDetail/productDetailPage';
 
 // Cart 购物车组件
 import CartSite from '../components/cart/CartSite.js';
@@ -34,11 +34,31 @@ class RouteApp extends React.Component {
       cart: []
     }
     this.handleAddToCart = this.handleAddToCart.bind(this);
+    this.handleChangeItemQuantity = this.handleChangeItemQuantity.bind(this);
     this.handleLogin = this.handleLogin.bind(this);
   }
 
   handleAddToCart(product){
-    this.setState({cart: [...this.state.cart,product]})
+    let cart = this.state.cart;
+    console.log(cart);
+    console.log(product);
+    const idx = cart.findIndex(x => x.id === product.id && x.color === product.color && x.size === product.size);
+    if (idx > -1){
+      cart[idx].quantity += 1;
+    }else{
+      cart.push(product)
+    }
+    this.setState({cart: cart})
+    console.log(cart)
+  }
+
+  handleChangeItemQuantity(id, color, size, newQuantity){
+    let cart = this.state.cart;
+    console.log(cart)
+    const idx = cart.findIndex(x => x.id === id && x.color === color && x.size === size);
+    cart[idx].quantity = newQuantity;
+    if (newQuantity === 0) cart.splice(idx, 1)
+    this.setState({cart: cart});
   }
 
   handleLogin(email,password){
@@ -62,7 +82,8 @@ class RouteApp extends React.Component {
 
     const {
       handleAddToCart,
-      handleLogin
+      handleLogin,
+      handleChangeItemQuantity
     } = this;
 
     const {
@@ -74,22 +95,20 @@ class RouteApp extends React.Component {
       <Router>
         <div id='body'>
           <Route render={(props)=>(
-            <Header {...props} cart={cart} />
+            <Header {...props} cart={cart} handleChangeItemQuantity={handleChangeItemQuantity} />
           )} />
           <Switch>
             <Redirect from='/eShop' to='/' />
             <Route exact path='/' component={Home} />
             <Route path='/search' component={SearchPage} />
             <Route path='/cart' children={() => {
-              return (<CartSite isLogin={isLogin} cart={cart} handleLogin={handleLogin} />)
+              return (<CartSite isLogin={isLogin} cart={cart} handleLogin={handleLogin} handleChangeItemQuantity={handleChangeItemQuantity} />)
             }} />
             <Route path='/login' children={() => {
               return ( <LoginSite isLogin={isLogin} handleLogin={handleLogin} />)
             }} />
             <Route path='/register' component={RegisterSite} />
-            <Route path='/:category/:type/:id' children={()=>{
-              return(<ProductDetailSite handleAddToCart={handleAddToCart}/>)
-            }} />
+            <Route path='/:category/:type/:id' children={() => <ProductDetailPage handleAddToCart={handleAddToCart} />} />
             <Route path='/:category' component={CategoryPage} />
             <Redirect from='*' to='/'  />
           </Switch>

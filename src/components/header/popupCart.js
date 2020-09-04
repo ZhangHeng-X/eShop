@@ -7,7 +7,8 @@ import PT from 'prop-types';
 
 const PopupCart = (props) => {
     let {cart, 
-        btn
+        btn,
+        handleChangeItemQuantity
     } = props;
 
     let valueTotal = 0;
@@ -15,7 +16,7 @@ const PopupCart = (props) => {
     const itemsOrder = cart.map(item => {
         valueTotal += item.salePrice * item.quantity;
         return(
-            <OrderItem key={item.id} {...item} />
+            <OrderItem key={item.id} {...item} handleChangeItemQuantity={handleChangeItemQuantity}/>
         )
     })
 

@@ -18,13 +18,14 @@ const Header = (props) => {
     location: {
       pathname
     },
-    cart
+    cart,
+    handleChangeItemQuantity
   } = props;
   return(
     <header>
       <div id='header-tool-wrap'>
         <Menu secondary className='header-tool'>
-          <ToolBar cart={cart} />
+          <ToolBar cart={cart} handleChangeItemQuantity={handleChangeItemQuantity}/>
           <SearchBar />
         </Menu>
       </div>

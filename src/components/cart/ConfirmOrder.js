@@ -5,28 +5,20 @@ const ConfirmOrder = () => (
   <Table definition>
     <Table.Body>
       <Table.Row>
-        <Table.Cell>PERSONAL DETAILS</Table.Cell>
-        <Table.Cell>JohoshaphatTse</Table.Cell>
+        <Table.Cell>NAME</Table.Cell>
+        <Table.Cell>Heng</Table.Cell>
       </Table.Row>
       <Table.Row>
-        <Table.Cell>Email</Table.Cell>
-        <Table.Cell>tsejx@foxmail.com</Table.Cell>
+        <Table.Cell>EMAIL</Table.Cell>
+        <Table.Cell>user@hm.com</Table.Cell>
       </Table.Row>
       <Table.Row>
-        <Table.Cell>HOME ADDRESS</Table.Cell>
-        <Table.Cell>San Francisco Street 5 No.101</Table.Cell>
+        <Table.Cell>PHONE</Table.Cell>
+        <Table.Cell>(123)-456-7890</Table.Cell>
       </Table.Row>
       <Table.Row>
-        <Table.Cell>DELIVERY COMPANY</Table.Cell>
-        <Table.Cell>SF DELIVERY</Table.Cell>
-      </Table.Row>
-      <Table.Row>
-        <Table.Cell>DELIVERY NOTIFICATION</Table.Cell>
-        <Table.Cell>952768</Table.Cell>
-      </Table.Row>
-      <Table.Row>
-        <Table.Cell>ORDER VALUE</Table.Cell>
-        <Table.Cell>$1000</Table.Cell>
+        <Table.Cell>SHIPPING ADDRESS</Table.Cell>
+        <Table.Cell>1234 Vermont Dr</Table.Cell>
       </Table.Row>
     </Table.Body>
   </Table>

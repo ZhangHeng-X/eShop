@@ -4,6 +4,8 @@ import ProductList from './productList';
 import Pagination from './pagination';
 import PT from 'prop-types';
 
+import './productContainer.css'
+
 
 const propTypes = {
   dataProducts: PT.array,

@@ -1,0 +1,20 @@
+#product-list .product-info .pro-info .header a {
+      display: inline-block;
+      width: 100%;
+      color: black;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+}
+  
+#product-list .pro-info .market-price {
+      text-decoration: line-through;
+}
+
+#product-list .pro-tool .add-wishlist{
+      display: inline-block;
+}
+
+#product-list .pro-tool .add-cart{
+      display: inline-block;
+}

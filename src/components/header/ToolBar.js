@@ -1,6 +1,7 @@
 import React from 'react';
 import { Menu, Button, Icon } from 'semantic-ui-react';
 import PopupLogin from './popupLogin';
+import PopupFavorite from './popupFavorite'
 import PopupCart from './popupCart';
 
 const ToolBtn = (content,icon) => (
@@ -21,7 +22,11 @@ const ToolBar = (props) => {
       </Menu.Item>
 
       <Menu.Item>
-        <PopupCart btn={ToolBtn('Cart', 'cart')} cart={props.cart} as='li' />
+        <PopupFavorite btn={ToolBtn('Favorite', 'heart')} as='li' />
+      </Menu.Item>
+
+      <Menu.Item>
+        <PopupCart btn={ToolBtn('Cart', 'cart')} cart={props.cart} handleChangeItemQuantity={props.handleChangeItemQuantity} as='li' />
       </Menu.Item>
     </Menu.Menu>
   )

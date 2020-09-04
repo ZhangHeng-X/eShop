@@ -6,7 +6,8 @@ import OrderBill from './OrderBill';
 
 const OrderBar = (props) => {
   const {
-    cart
+    cart,
+    handleChangeItemQuantity
   } = props;
 
   let valueTotal = 0;
@@ -14,7 +15,7 @@ const OrderBar = (props) => {
   const itemsOrder = cart.map(function(item,index){
     valueTotal += item.quantity * item.salePrice;
     return(
-      <OrderItem key={item.id} {...item}/>
+      <OrderItem key={item.id} {...item} handleChangeItemQuantity={handleChangeItemQuantity} />
     )
   });
 

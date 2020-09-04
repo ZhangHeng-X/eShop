@@ -69,6 +69,7 @@ class ProductItem extends React.Component{
 
   return(
     <Card className='product-info'>
+      
       <Link to={`/${category}/${type}/${id}`} >
         <Image 
             className='pro-images'
@@ -77,6 +78,7 @@ class ProductItem extends React.Component{
             onMouseOver={() => this.setState({hovered: true})}
             fluid />
       </Link>
+      
       <Card.Content className='pro-info'>
         <Card.Header as='h4'>
           <Link to={`/${category}/${type}/${id}`}>
@@ -92,6 +94,7 @@ class ProductItem extends React.Component{
           </span>
         </Card.Meta>
       </Card.Content>
+      
       <Card.Content extra className='pro-tool'>
         <a className='add-wishlist'>
           <Icon name='heart' />
@@ -102,6 +105,7 @@ class ProductItem extends React.Component{
           Add Cart
         </Link>
       </Card.Content>
+      
     </Card>
   )
 }

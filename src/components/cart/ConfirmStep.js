@@ -11,7 +11,7 @@ const propTypes = {
 
 const ConfirmStep = (props) => (
   <Grid.Row id='checkout'>
-    <Grid.Column id='checkout-controller' width='8' textAlign='left'>
+    <Grid.Column id='checkout-controller' width='4' textAlign='left'>
       <Header as='h2' className='controller-header' content='CONFIRM ORDER' dividing/>
       <ConfirmOrder/>
       <Button
@@ -21,7 +21,7 @@ const ConfirmStep = (props) => (
         onClick={()=>props.handleBillDone()}
       />
     </Grid.Column>
-    <OrderBar cart={props.cart}/>
+    <OrderBar cart={props.cart} handleChangeItemQuantity={props.handleChangeItemQuantity} />
   </Grid.Row>
 )
 

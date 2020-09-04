@@ -12,7 +12,6 @@ const OrderBill = (props) => (
     <List.Item as='li'><span>DELIVERY</span><span>$10.00</span></List.Item>
     <List.Item as='li'><Divider/></List.Item>
     <List.Item as='li'><span>TOTAL</span><span>${(props.orderValue+10).toFixed(2)}</span></List.Item>
-    <List.Item as='li'>30 days withdrawal. </List.Item>
   </List>
 )
 

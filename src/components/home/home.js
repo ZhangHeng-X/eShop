@@ -5,7 +5,7 @@ import axios from 'axios';
 import HotSaleHeader from './hotSaleHeader.js';
 import ProductList from '../productContainer/productList'
 import './home.css'
-import '../product/product.css'
+import '../productContainer/productContainer.css'
 
 class Home extends Component {
 

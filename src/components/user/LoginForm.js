@@ -52,7 +52,6 @@ class LoginForm extends React.Component {
     return(
       <div className='login-form'>
         <Header as='h4'>
-          SIGN IN
           <Header.Subheader>
             Sign in to be continue.
           </Header.Subheader>
@@ -61,14 +60,14 @@ class LoginForm extends React.Component {
           <Form.Field
             label='*Email'
             control='input'
-            placeholder='Email'
+            placeholder='Email: user@hm.com'
             onChange={changeMail}
           />
           <Form.Field
             label='*Password'
             control='input'
             type='password'
-            placeholder='Password'
+            placeholder='Password: user'
             onChange={changePassword}
           />
           <Popup
@@ -76,25 +75,21 @@ class LoginForm extends React.Component {
                         type='submit'
                         color='black'
                         onClick={()=>{handleLogin(email,password)}
-                      }>LOGIN</Button>}
-            content={isLogin?'You have successfully logged in.':'Your e-mail and password are wrong , please check again.'}
+                      }>CONTINUE TO CHECKOUT</Button>}
+            content={isLogin? '' :'Invalid email or password. Please check again.'}
             on='click'
             hideOnScroll
             inverted
           />
-          <a onClick={this.handleOpen}>
-            Forgotten password?
-          </a>
+          <br/>
+          <Popup
+            trigger={
+              <a>Forgot your password?</a>
+            }
+          >
+            Email: user@hm.com <br/> Password: user
+          </Popup>
         </Form>
-        <Dimmer
-          active={active}
-          onClickOutside={this.handleClose}
-          page
-        >
-        Email : guest
-        <br/>
-        Password : 01234
-        </Dimmer>
       </div>
     )
   }

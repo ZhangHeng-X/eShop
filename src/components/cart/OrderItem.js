@@ -1,5 +1,5 @@
 import React from 'react';
-import { Item } from 'semantic-ui-react';
+import { Item, Dropdown } from 'semantic-ui-react';
 import PT from 'prop-types';
 
 const propTypes = {
@@ -15,24 +15,36 @@ const propTypes = {
 
 const OrderItem = (props) => {
   const {
+    id,
     name,
     salePrice,
     srcImg,
     color,
     size,
-    quantity
+    quantity,
+    handleChangeItemQuantity
   } = props;
+
+  let quantityOptions = [0, 1, 2, 3, 5, 6, 7, 8, 9, 10].map(
+    x => ({text : x.toString(), value: x})
+  );
+  quantityOptions[0].text = '0(Remove)'
+
+  const myFunc = (e, data) => {
+    handleChangeItemQuantity(id, color, size, data.value)
+  }
 
   return(
     <Item>
       <Item.Image src={require('../../../public'+srcImg.substring(12))} />
       <Item.Content className='item-content'>
-        <Item.Header as='h3'>{name}</Item.Header>
+        <Item.Header as='h3'>{name}</Item.Header> 
+        <br/>
         <Item.Header as='h4'>${salePrice}</Item.Header>
         <Item.Meta>
-          <span>Quantity: {quantity}</span>
-          <span>Color: {color}</span>
-          <span>Size: {size}</span>
+          <span>Quantity: <Dropdown placeholder={quantity} options={quantityOptions} onChange={myFunc} /> </span>  <br/>
+          <span>Color: {color}</span> <br/>
+          <span>Size: {size}</span> <br/>
           <span>Total: ${quantity*salePrice}</span>
         </Item.Meta>
       </Item.Content>

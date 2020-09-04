@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Header, Form, Button, Checkbox } from 'semantic-ui-react';
+import { Grid, Header, Form, Button, Checkbox, Popup } from 'semantic-ui-react';
 
 
 class RegisterSite extends Component {
@@ -34,9 +34,16 @@ class RegisterSite extends Component {
             />
             <Form.Field
               control={Checkbox}
-              label={{ children: 'Yes,I consent to the Privacy policy.' }}
+              label={{ children: 'Yes, I agree to H&M Membership Terms and conditions.' }}
             />
-            <Button type='submit' color='black'>JOIN US</Button>
+            <Popup
+            trigger={
+              <Button type='submit' color='black'>BECOME A MEMBER</Button>
+            }
+            content='Under development...'
+          >
+          </Popup>
+            
           </Form>
         </Grid.Column>
       </Grid>

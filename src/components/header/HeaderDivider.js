@@ -9,7 +9,7 @@ const HeaderDivider = (props) => {
   return(
     <Divider horizontal>
       <Header as='h4'>
-        <Link to='/'>eShop.com</Link>
+        <Link to='/'>H&M</Link>
         {" / "}
         <span>{secondary}</span>
       </Header>

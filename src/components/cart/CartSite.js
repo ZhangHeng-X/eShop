@@ -12,7 +12,8 @@ import PT from 'prop-types';
 const propTypes = {
   isLogin: PT.bool,
   cart: PT.arrayOf(PT.object),
-  handleLogin: PT.func
+  handleLogin: PT.func,
+  handleChangeItemQuantity: PT.func
 }
 
 class CartSite extends Component {
@@ -39,7 +40,8 @@ class CartSite extends Component {
     const {
       cart,
       isLogin,
-      handleLogin
+      handleLogin,
+      handleChangeItemQuantity
     } = this.props;
 
     let steps = [
@@ -51,9 +53,9 @@ class CartSite extends Component {
     let displayContainer = null;
 
     if(!isLogin){
-      displayContainer = <SigninStep cart={cart} isLogin={isLogin} handleLogin={handleLogin}/>;
+      displayContainer = <SigninStep cart={cart} handleChangeItemQuantity={handleChangeItemQuantity} isLogin={isLogin} handleLogin={handleLogin}/>;
     }else if(!isConfirm){
-      displayContainer = <ConfirmStep cart={cart} handleBillDone={handleBillDone}/>;
+      displayContainer = <ConfirmStep cart={cart} handleChangeItemQuantity={handleChangeItemQuantity} handleBillDone={handleBillDone}/>;
     }else{
       displayContainer = <Route component={BillDoneStep}/>;
     }

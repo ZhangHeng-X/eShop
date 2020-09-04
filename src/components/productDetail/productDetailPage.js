@@ -1,26 +1,26 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 import { Grid, Image} from 'semantic-ui-react';
-import ProductImages from './ProductImages';
-import ProductHeader from './ProductHeader';
-import ProductColor from './ProductColor';
-import ProductSize from './ProductSize';
-//import ProductCount from './ProductCount';
-import ProductDetail from './ProductDetail';
+import ProductImages from './productDetailImage';
+import ProductHeader from './productDetailHeader';
+import ProductDetailColor from './productDetailColor';
+import ProductDetailSize from './productDetailSize';
+import ProductDetailAddToCart from './productDetailAddToCart';
 import axios from 'axios';
 
-class ProductInfo extends React.Component {
+import './productDetail.css'
+
+class ProductDetailPage extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      selectedColor: 'Please Select Color',
-      selectedSize: 'Please Select Size',
+      selectedColor: '',
+      selectedSize: '',
       dataProInfo: {id:"Loading",category:"",type:"",name:"Loading",price:{marketPrice:"",salePrice:"Loading"},detail:{color:['red','blue'],size:['','','','',''],des:""},quantity:"",images:{imgProduct:"",imgModel:"",imgDetail:""}},
-      canAddToCart: true
     }
     this.handleSelectColor = this.handleSelectColor.bind(this);
     this.handleSelectSize = this.handleSelectSize.bind(this);
-    this.handleAddOnceToCart = this.handleAddOnceToCart.bind(this);
   }
 
   handleSelectColor(value){
@@ -62,23 +62,17 @@ class ProductInfo extends React.Component {
     .catch(err => console.log(err))
   }
 
-  handleAddOnceToCart(){
-    this.setState({canAddToCart: false})
-  }
-
   render(){
 
     const {
       handleSelectColor,
       handleSelectSize,
-      handleAddOnceToCart
     } = this;
 
     const {
       selectedColor,
       selectedSize,
       dataProInfo,
-      canAddToCart
     } = this.state;
 
     const proInfo = {
@@ -91,45 +85,33 @@ class ProductInfo extends React.Component {
       size: selectedSize
     }
 
-
-    let hasSelected  = false;
-
-    if (selectedColor !== 'Please Select Color' && selectedSize !=='Please Select Size') {
-      hasSelected  = true;
-    }
-
     return(
-      <Grid.Row>
-        <Grid.Column width={6}>
+      <Grid textAlign='center'>
+        <Grid.Column width={4}>
             <ProductImages img={proInfo.srcImg}/>
         </Grid.Column>
-        <Grid.Column id="product-info" width={6} textAlign='left'>
+        <Grid.Column id="product-info" width={4} textAlign='left'>
             <ProductHeader
               name={dataProInfo.name}
               price={dataProInfo.price}
             />
-            <ProductColor
+            <ProductDetailColor
               dataColor={dataProInfo.detail.color}
-              selectedColor={selectedColor}
               handleSelectColor={handleSelectColor}
             />
-            <ProductSize
+            <ProductDetailSize
               dataSize={dataProInfo.detail.size}
-              selectedSize={selectedSize}
               handleSelectSize={handleSelectSize}
             />
-            <ProductDetail
-              dataDes={dataProInfo.detail.des}
-              canAddToCart={canAddToCart}
-              hasSelected={hasSelected}
+            <ProductDetailAddToCart
+              selectedSize={selectedSize}
               handleAddToCart={this.props.handleAddToCart}
-              handleAddOnceToCart={handleAddOnceToCart}
               proInfo={proInfo}
             />
         </Grid.Column>
-      </Grid.Row>
+        </Grid>
     )
   }
 }
 
-export default ProductInfo;
+export default withRouter(ProductDetailPage);
