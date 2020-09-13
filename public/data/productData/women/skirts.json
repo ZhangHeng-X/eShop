@@ -1,0 +1,146 @@
+[
+    {
+        "id": "230000199312312649",
+        "category": "women",
+        "type": "skirts",
+        "name": "Flounced Skirt",
+        "price": {
+            "marketPrice": 39,
+            "salePrice": 19
+        },
+        "detail": {
+            "color": [
+                "black",
+                "brown"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "des": "Short, A-line skirt with a zipper at back and flounce at hem."
+        }
+    },
+    {
+        "id": "460000197511038615",
+        "category": "women",
+        "type": "skirts",
+        "name": "A-line Denim Skirt",
+        "price": {
+            "marketPrice": 179,
+            "salePrice": 79
+        },
+        "detail": {
+            "color": [
+                "blue"
+            ],
+            "size": [
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "Calf-length, A-line skirt in washed cotton denim with a soft finish. High waist and zip fly with button. Front pockets, coin pocket, and back pockets. Raw-edge hem."
+        }
+    },
+    {
+        "id": "230000199312312650",
+        "category": "women",
+        "type": "skirts",
+        "name": "Flounced Skirt II",
+        "price": {
+            "marketPrice": 39,
+            "salePrice": 19
+        },
+        "detail": {
+            "color": [
+                "black",
+                "brown"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "des": "Short, A-line skirt with a zipper at back and flounce at hem."
+        }
+    },
+    {
+        "id": "460000197511038616",
+        "category": "women",
+        "type": "skirts",
+        "name": "A-line Denim Skirt II",
+        "price": {
+            "marketPrice": 179,
+            "salePrice": 79
+        },
+        "detail": {
+            "color": [
+                "blue"
+            ],
+            "size": [
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "Calf-length, A-line skirt in washed cotton denim with a soft finish. High waist and zip fly with button. Front pockets, coin pocket, and back pockets. Raw-edge hem."
+        }
+    },
+    {
+        "id": "230000199312312659",
+        "category": "women",
+        "type": "skirts",
+        "name": "Flounced Skirt III",
+        "price": {
+            "marketPrice": 39,
+            "salePrice": 19
+        },
+        "detail": {
+            "color": [
+                "black",
+                "brown"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "des": "Short, A-line skirt with a zipper at back and flounce at hem."
+        }
+    },
+    {
+        "id": "460000197511038625",
+        "category": "women",
+        "type": "skirts",
+        "name": "A-line Denim Skirt III",
+        "price": {
+            "marketPrice": 179,
+            "salePrice": 79
+        },
+        "detail": {
+            "color": [
+                "blue"
+            ],
+            "size": [
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "Calf-length, A-line skirt in washed cotton denim with a soft finish. High waist and zip fly with button. Front pockets, coin pocket, and back pockets. Raw-edge hem."
+        }
+    }
+]

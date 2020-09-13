@@ -1,6 +1,7 @@
 import React from 'react';
 import {Card} from 'semantic-ui-react'
 import ProductItem from './productItem';
+import axios from 'axios';
 import PT from 'prop-types';
 
 const propTypes = {
@@ -12,13 +13,13 @@ const ProductList = (props) => {
   const itemsProduct = props.dataProducts.map(function(item){
     return(
       <ProductItem
-        key={item.id}
         id={item.id}
         category={item.category}
         type={item.type}
         name={item.name}
         price={item.price}
-        images={item.images}
+        imgProd={'/data/productImages/' + item.id + '/' + item.detail.color[0] + '.jpeg'}
+        imgModel = {'/data/productImages/' + item.id + '/model.jpeg'}
       />
     )
   })

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import { Grid } from 'semantic-ui-react';
+import PT from 'prop-types';
 
 import StepProgress from './StepProgress';
 import SigninStep from './SigninStep';
 import ConfirmStep from './ConfirmStep';
 import BillDoneStep from './BillDoneStep';
-
-import PT from 'prop-types';
+import './cart.css'
 
 const propTypes = {
   isLogin: PT.bool,

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { Menu } from 'semantic-ui-react'
 
-const dataHeaderMenu = ['men', 'ladies', 'kids'];
+const dataHeaderMenu = ['men', 'women', 'kids'];
 
 class HeaderNavigation extends Component {
 
@@ -22,17 +22,14 @@ class HeaderNavigation extends Component {
     let listMenu = dataHeaderMenu.map(function(item,index){
       return(
         <Menu.Item
+          as={Link}
+          to={'/' + item}
           key={index}
           name = {item}
           color='red'
           className="nav-item"
           active={activeItem === item} >
-          <Link
-            to={'/' + item}
-            activeClassName="active"
-            >
             {item.toUpperCase()}
-          </Link>
         </Menu.Item>
       )
     })

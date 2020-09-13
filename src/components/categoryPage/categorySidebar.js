@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import { Menu } from 'semantic-ui-react';
 import PT from 'prop-types';
 
-const dataLadiesMenu = ['shirts','dresses','short','skirts','knitwear','shoes'];
+const dataWomenMenu = ['dresses','shoes','shorts','skirts'];
 
-const dataMenMenu = ['t-shirt','shirts','jeans','sportwear','shoes'];
+const dataMenMenu = ['jeans','shirts','shoes','shorts','t-shirts'];
 
-const dataKidsMenu = ['sets','tops','outdoor'];
+const dataKidsMenu = ['boys','girls'];
 
 const propTypes = {
   handleProList: PT.func
@@ -17,9 +17,6 @@ class CategorySidebar extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {
-      activeItem: ''
-    }
     this.handleItemClick = this.handleItemClick.bind(this);
   }
 
@@ -33,14 +30,13 @@ class CategorySidebar extends Component {
       this.props.handleProList(pathname,arrPathname[1].substr(1))
     }
   }
-
   handleItemClick(item){
-    this.setState({activeItem: item});
+    //this.setState({activeItem: item});
   }
+
 
   render(){
     const { handleItemClick } = this;
-    const { activeItem } = this.state;
     const { handleProList } = this.props;
 
     // Secondary Path of Current Page 当前页面二级路径
@@ -50,8 +46,8 @@ class CategorySidebar extends Component {
     let dataSidebarMenu = null;
 
     switch(matchUrl){
-      case '/ladies':
-        dataSidebarMenu = dataLadiesMenu;
+      case '/women':
+        dataSidebarMenu = dataWomenMenu;
         break;
       case '/men':
         dataSidebarMenu = dataMenMenu;
@@ -76,14 +72,14 @@ class CategorySidebar extends Component {
 
       return (
         <Menu.Item
-          as='li'
+          as={Link}
           key={index}
-          className={'sb-menu-item' + ' ' + `${activeItem === item?'selected':''}`}
           onClick={() => {
             handleItemClick(item)
             handleProList(matchUrl + '/' +item,item)
           }}
-          children={link}
+          to={matchUrl + '/' + item}
+          content={itemMenu}
         />
       )
     })

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { Grid } from 'semantic-ui-react';
+import { Grid, Image } from 'semantic-ui-react';
 import CategorySidebar from './categorySidebar';
 import ProductContainer from '../productContainer/productContainer';
 import axios from 'axios';
 
 const CategoryBanner = (props) => {
     return(
-  <img src={require('../../../public/data/bannerImages'+ props.bannerPath +'Banner.jpg')}/>
+  <Image src={require('../../../public/data/bannerImages'+ props.bannerPath +'Banner.jpeg')} fluid />
 )}
 
 class categoryPage extends Component {

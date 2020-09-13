@@ -15,13 +15,14 @@ const PopupCart = (props) => {
     
     const itemsOrder = cart.map(item => {
         valueTotal += item.salePrice * item.quantity;
+        console.log(item.srcImg)
         return(
             <OrderItem key={item.id} {...item} handleChangeItemQuantity={handleChangeItemQuantity}/>
         )
     })
 
     const cartWith = (
-        <div className='popup-cart-with-product'>
+        <div className='popup-cart'>
             <Item.Group divided>
                 {itemsOrder}
             </Item.Group>

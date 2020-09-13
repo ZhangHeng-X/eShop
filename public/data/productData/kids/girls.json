@@ -1,0 +1,167 @@
+[
+    {
+        "id": "820000197202181052",
+        "category": "kids",
+        "type": "girls",
+        "name": "Printed Top",
+        "price": {
+            "marketPrice": 19,
+            "salePrice": 9
+        },
+        "detail": {
+            "color": [
+                "red",
+                "pink",
+                "black"
+            ],
+            "size": [
+                "56CM",
+                "62CM",
+                "68CM",
+                "74CM",
+                "80CM",
+                "86CM",
+                "92CM",
+                "98CM"
+            ],
+            "des": "Short-sleeved top in cotton jersey with a printed design at front. Rounded hem, longer at back."
+        }
+    },
+    {
+        "id": "620000199911294377",
+        "category": "kids",
+        "type": "girls",
+        "name": "Printed Bomber Jacket",
+        "price": {
+            "marketPrice": 55,
+            "salePrice": 35
+        },
+        "detail": {
+            "color": [
+                "pink",
+                "black"
+            ],
+            "size": [
+                "56CM",
+                "62CM",
+                "68CM",
+                "74CM",
+                "80CM",
+                "86CM",
+                "92CM",
+                "98CM"
+            ],
+            "des": "Bomber jacket in woven fabric with a printed design at front and back. Small, ribbed stand-up collar and zipper at front. Diagonal side pockets and a sleeve pocket with zipper. Visible, gathered seams on sleeves and ribbing at cuffs and hem. Lined."
+        }
+    },
+    {
+        "id": "820000197202181053",
+        "category": "kids",
+        "type": "girls",
+        "name": "Printed Top II",
+        "price": {
+            "marketPrice": 19,
+            "salePrice": 9
+        },
+        "detail": {
+            "color": [
+                "red",
+                "pink",
+                "black"
+            ],
+            "size": [
+                "56CM",
+                "62CM",
+                "68CM",
+                "74CM",
+                "80CM",
+                "86CM",
+                "92CM",
+                "98CM"
+            ],
+            "des": "Short-sleeved top in cotton jersey with a printed design at front. Rounded hem, longer at back."
+        }
+    },
+    {
+        "id": "620000199911294378",
+        "category": "kids",
+        "type": "girls",
+        "name": "Printed Bomber Jacket II",
+        "price": {
+            "marketPrice": 55,
+            "salePrice": 35
+        },
+        "detail": {
+            "color": [
+                "pink",
+                "black"
+            ],
+            "size": [
+                "56CM",
+                "62CM",
+                "68CM",
+                "74CM",
+                "80CM",
+                "86CM",
+                "92CM",
+                "98CM"
+            ],
+            "des": "Bomber jacket in woven fabric with a printed design at front and back. Small, ribbed stand-up collar and zipper at front. Diagonal side pockets and a sleeve pocket with zipper. Visible, gathered seams on sleeves and ribbing at cuffs and hem. Lined."
+        }
+    },
+    {
+        "id": "820000197202181062",
+        "category": "kids",
+        "type": "girls",
+        "name": "Printed Top III",
+        "price": {
+            "marketPrice": 19,
+            "salePrice": 9
+        },
+        "detail": {
+            "color": [
+                "red",
+                "pink",
+                "black"
+            ],
+            "size": [
+                "56CM",
+                "62CM",
+                "68CM",
+                "74CM",
+                "80CM",
+                "86CM",
+                "92CM",
+                "98CM"
+            ],
+            "des": "Short-sleeved top in cotton jersey with a printed design at front. Rounded hem, longer at back."
+        }
+    },
+    {
+        "id": "620000199911294387",
+        "category": "kids",
+        "type": "girls",
+        "name": "Printed Bomber Jacket III",
+        "price": {
+            "marketPrice": 55,
+            "salePrice": 35
+        },
+        "detail": {
+            "color": [
+                "pink",
+                "black"
+            ],
+            "size": [
+                "56CM",
+                "62CM",
+                "68CM",
+                "74CM",
+                "80CM",
+                "86CM",
+                "92CM",
+                "98CM"
+            ],
+            "des": "Bomber jacket in woven fabric with a printed design at front and back. Small, ribbed stand-up collar and zipper at front. Diagonal side pockets and a sleeve pocket with zipper. Visible, gathered seams on sleeves and ribbing at cuffs and hem. Lined."
+        }
+    }
+]

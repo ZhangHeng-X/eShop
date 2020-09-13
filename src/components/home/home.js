@@ -12,7 +12,7 @@ class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      dataHotSaleProduct: [{id:"Loading",category:"",type:"",name:"Loading",price:{marketPrice:1,salePrice:1},detail:{color:['red','blue'],size:['','','','',''],des:""},quantity:"",images:{imgProduct:"../../../src/data/productImages/men/jeans.jpg",imgModel:"",imgDetail:""}}],
+      dataHotSaleProduct: [],
       isReadMore: false
     }
     this.handleReadMoreProduct = this.handleReadMoreProduct.bind(this);

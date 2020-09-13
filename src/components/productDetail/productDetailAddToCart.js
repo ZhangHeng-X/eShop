@@ -11,7 +11,7 @@ const ProductDetailAddToCart = (props) => {
   } = props;
 
   const btnAddToCart = (
-    <Button as='button'  className='add-to-cart' icon onClick={()=>{
+    <Button as='button' fluid className='add-to-cart' icon onClick={()=>{
       if (selectedSize !== '') handleAddToCart(proInfo);
     }}>
       <Icon name='cart' />
@@ -20,7 +20,7 @@ const ProductDetailAddToCart = (props) => {
   )
 
   return(
-    <div className="product-detail">
+    <div className="product-detail-add-to-cart">
       <Popup
         trigger={btnAddToCart}
         content={selectedSize !== '' ? 'Successfully added to the shopping cart!':'Chooose size first.'}

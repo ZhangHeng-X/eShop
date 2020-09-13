@@ -1,0 +1,146 @@
+[
+    {
+        "id": "650000198010142633",
+        "category": "women",
+        "type": "shoes",
+        "name": "Slingbacks Shoes",
+        "price": {
+            "marketPrice": 39,
+            "salePrice": 19
+        },
+        "detail": {
+            "color": [
+                "orange",
+                "brown"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Slingbacks in faux suede with pointed toes. Satin lining and faux leather insoles."
+        }
+    },
+    {
+        "id": "230000201509169970",
+        "category": "women",
+        "type": "shoes",
+        "name": "Knee-high Boots",
+        "price": {
+            "marketPrice": 270,
+            "salePrice": 170
+        },
+        "detail": {
+            "color": [
+                "brown",
+                "black"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Knee-high boots in imitation leather with square toes and high heels. Satin linings made from recycled polyester, imitation leather insoles and rubber soles. Heel 9 cm."
+        }
+    },
+    {
+        "id": "650000198010142634",
+        "category": "women",
+        "type": "shoes",
+        "name": "Slingbacks Shoes II",
+        "price": {
+            "marketPrice": 39,
+            "salePrice": 19
+        },
+        "detail": {
+            "color": [
+                "orange",
+                "brown"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Slingbacks in faux suede with pointed toes. Satin lining and faux leather insoles."
+        }
+    },
+    {
+        "id": "230000201509169971",
+        "category": "women",
+        "type": "shoes",
+        "name": "Knee-high Boots II",
+        "price": {
+            "marketPrice": 270,
+            "salePrice": 170
+        },
+        "detail": {
+            "color": [
+                "brown",
+                "black"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Knee-high boots in imitation leather with square toes and high heels. Satin linings made from recycled polyester, imitation leather insoles and rubber soles. Heel 9 cm."
+        }
+    },
+    {
+        "id": "650000198010142643",
+        "category": "women",
+        "type": "shoes",
+        "name": "Slingbacks Shoes III",
+        "price": {
+            "marketPrice": 39,
+            "salePrice": 19
+        },
+        "detail": {
+            "color": [
+                "orange",
+                "brown"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Slingbacks in faux suede with pointed toes. Satin lining and faux leather insoles."
+        }
+    },
+    {
+        "id": "230000201509169980",
+        "category": "women",
+        "type": "shoes",
+        "name": "Knee-high Boots III",
+        "price": {
+            "marketPrice": 270,
+            "salePrice": 170
+        },
+        "detail": {
+            "color": [
+                "brown",
+                "black"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Knee-high boots in imitation leather with square toes and high heels. Satin linings made from recycled polyester, imitation leather insoles and rubber soles. Heel 9 cm."
+        }
+    }
+]

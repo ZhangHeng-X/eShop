@@ -11,12 +11,9 @@ class ProductDetailColor extends Component {
     this.handleActiveColor = this.handleActiveColor.bind(this);
   }
 
-  componentDidMount(){
-    const colorInitial = this.props.dataColor[0];
-    this.setState({
-      colorActive: colorInitial
-    });
-    this.props.handleSelectColor(colorInitial);
+  componentWillReceiveProps(nextProps){
+    if (nextProps.dataColor.length !== this.props.dataColor.length)
+      this.setState({colorActive: nextProps.dataColor[0]})
   }
 
   handleActiveColor(color){
@@ -41,20 +38,20 @@ class ProductDetailColor extends Component {
 
     const itemsColorBtn = dataColor.map(function(item,index){
       return(
+        <div className={colorActive === item ?'selected':'unselected'}>
         <Button
-          disabled={false}
           key={index}
-          className={colorActive === item ?'selected':''}
           color={item}
           onClick={() => handleActiveColor(item)}
         ></Button>
+        </div>
       )
     })
 
     return(
       <div class="product-detail-color">
         {colorActive} <br/>
-        <Button.Group size='small' >
+        <Button.Group>
           {itemsColorBtn}
         </Button.Group>
       </div>

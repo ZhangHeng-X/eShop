@@ -35,8 +35,8 @@ const OrderItem = (props) => {
   }
 
   return(
-    <Item>
-      <Item.Image src={require('../../../public'+srcImg.substring(12))} />
+    <Item className='order-item'>
+      <Item.Image src={require('../../../public/data/productImages/' + srcImg)} />
       <Item.Content className='item-content'>
         <Item.Header as='h3'>{name}</Item.Header> 
         <br/>
@@ -45,7 +45,7 @@ const OrderItem = (props) => {
           <span>Quantity: <Dropdown placeholder={quantity} options={quantityOptions} onChange={myFunc} /> </span>  <br/>
           <span>Color: {color}</span> <br/>
           <span>Size: {size}</span> <br/>
-          <span>Total: ${quantity*salePrice}</span>
+          <span>Subtotal: ${quantity*salePrice}</span>
         </Item.Meta>
       </Item.Content>
     </Item>

@@ -8,8 +8,8 @@ const dataFooterMenu = [
     menuHeader: 'SHOP',
     menuItems: [
     {
-        link: 'Ladies',
-        path: '/ladies'
+        link: 'Women',
+        path: '/women'
     },
     {
         link: 'Men',

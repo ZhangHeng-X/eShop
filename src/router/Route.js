@@ -40,8 +40,6 @@ class RouteApp extends React.Component {
 
   handleAddToCart(product){
     let cart = this.state.cart;
-    console.log(cart);
-    console.log(product);
     const idx = cart.findIndex(x => x.id === product.id && x.color === product.color && x.size === product.size);
     if (idx > -1){
       cart[idx].quantity += 1;
@@ -49,7 +47,6 @@ class RouteApp extends React.Component {
       cart.push(product)
     }
     this.setState({cart: cart})
-    console.log(cart)
   }
 
   handleChangeItemQuantity(id, color, size, newQuantity){
@@ -57,7 +54,7 @@ class RouteApp extends React.Component {
     console.log(cart)
     const idx = cart.findIndex(x => x.id === id && x.color === color && x.size === size);
     cart[idx].quantity = newQuantity;
-    if (newQuantity === 0) cart.splice(idx, 1)
+    if (newQuantity === 0) cart.splice(idx, 1);
     this.setState({cart: cart});
   }
 

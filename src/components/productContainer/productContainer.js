@@ -83,7 +83,6 @@ class ProductContainer extends React.Component{
         break;
       case 'Lowest Price':
         dataDisplay = this.filterLowestPrice(dataProducts.slice(0))
-        console.log(dataDisplay);
         break;
       case 'Highest Price':
         dataDisplay = this.filterHighestPrice(dataProducts.slice(0))

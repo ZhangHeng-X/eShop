@@ -24,6 +24,7 @@ class ProductDetailSize extends React.Component {
 
     return(
       <Dropdown
+        className='product-detail-size'
         placeholder='Select size'
         fluid
         selection

@@ -10,7 +10,8 @@ let propTypes = {
   type: PT.string,
   name: PT.string,
   price: PT.objectOf(PT.number),
-  images: PT.object
+  imgProd: PT.string,
+  imgModel: PT.string
 }
 
 class ProductItem extends React.Component{
@@ -21,36 +22,69 @@ class ProductItem extends React.Component{
     }    
   }
 
-  componentDidMount() {
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.imgProd === this.props.imgProd) return;
     axios
-      .get(
-        this.props.images.imgProduct.substring(12),
-        { responseType: 'arraybuffer' },
-      )
-      .then(response => {
-        const base64 = btoa(
-          new Uint8Array(response.data).reduce(
-            (data, byte) => data + String.fromCharCode(byte),
-            '',
-          ),
-        );
-        this.setState({ imgUnhovered: "data:;base64," + base64 });
-      });
-    
+    .get(
+      nextProps.imgProd,
+      { responseType: 'arraybuffer' },
+    )
+    .then(response => {
+      const base64 = btoa(
+        new Uint8Array(response.data).reduce(
+          (data, byte) => data + String.fromCharCode(byte),
+          '',
+        ),
+      );
+      this.setState({ imgProd: "data:;base64," + base64 });
+    });
+
     axios
-      .get(
-        '../../../src/data/productImages/men/jeans.jpg'.substring(12),
-        { responseType: 'arraybuffer' },
-      )
-      .then(response => {
-        const base64 = btoa(
-          new Uint8Array(response.data).reduce(
-            (data, byte) => data + String.fromCharCode(byte),
-            '',
-          ),
-        );
-        this.setState({ imgHovered: "data:;base64," + base64 });
-      });
+    .get(
+      nextProps.imgModel,
+      { responseType: 'arraybuffer' },
+    )
+    .then(response => {
+      const base64 = btoa(
+        new Uint8Array(response.data).reduce(
+          (data, byte) => data + String.fromCharCode(byte),
+          '',
+        ),
+      );
+      this.setState({ imgModel: "data:;base64," + base64 });
+    });
+  }
+
+  componentDidUpdate() {
+    axios
+    .get(
+      this.props.imgProd,
+      { responseType: 'arraybuffer' },
+    )
+    .then(response => {
+      const base64 = btoa(
+        new Uint8Array(response.data).reduce(
+          (data, byte) => data + String.fromCharCode(byte),
+          '',
+        ),
+      );
+      this.setState({ imgProd: "data:;base64," + base64 });
+    });
+
+    axios
+    .get(
+      this.props.imgModel,
+      { responseType: 'arraybuffer' },
+    )
+    .then(response => {
+      const base64 = btoa(
+        new Uint8Array(response.data).reduce(
+          (data, byte) => data + String.fromCharCode(byte),
+          '',
+        ),
+      );
+      this.setState({ imgModel: "data:;base64," + base64 });
+    });
   }
 
   render(){
@@ -63,9 +97,9 @@ class ProductItem extends React.Component{
     price:{
       marketPrice,
       salePrice
-    },
-    images
+    }
   } = this.props;
+
 
   return(
     <Card className='product-info'>
@@ -73,7 +107,7 @@ class ProductItem extends React.Component{
       <Link to={`/${category}/${type}/${id}`} >
         <Image 
             className='pro-images'
-            src={this.state.hovered ? this.state.imgHovered : this.state.imgUnhovered} 
+            src={this.state.hovered ? this.state.imgModel : this.state.imgProd} 
             onMouseOut={() => this.setState({hovered: false})}
             onMouseOver={() => this.setState({hovered: true})}
             fluid />

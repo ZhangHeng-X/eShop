@@ -17,16 +17,34 @@ class ProductDetailPage extends React.Component {
     this.state = {
       selectedColor: '',
       selectedSize: '',
-      dataProInfo: {id:"Loading",category:"",type:"",name:"Loading",price:{marketPrice:"",salePrice:"Loading"},detail:{color:['red','blue'],size:['','','','',''],des:""},quantity:"",images:{imgProduct:"",imgModel:"",imgDetail:""}},
+      dataProInfo: {
+        "id": "Loading",
+        "category": "",
+        "type": "",
+        "name": "",
+        "price": {
+            "marketPrice": 0,
+            "salePrice": 0
+        },
+        "detail": {
+            "color": [],
+            "size": [
+                "68CM",
+                "74CM",
+                "80CM",
+                "86CM",
+                "92CM",
+                "98CM"
+            ],
+            "des": "Knee-length shorts in washed stretch denim. Adjustable elasticized waistband and zip fly with button. Front pockets and back pockets."
+        }
+    }
     }
     this.handleSelectColor = this.handleSelectColor.bind(this);
     this.handleSelectSize = this.handleSelectSize.bind(this);
   }
 
   handleSelectColor(value){
-    value = value.replace(/^[a-z]?/,function($0){
-        return $0.toUpperCase();
-      })
     this.setState({
       selectedColor: value
     })
@@ -55,7 +73,8 @@ class ProductDetailPage extends React.Component {
         }
       })
       this.setState({
-        dataProInfo: dataTemp
+        dataProInfo: dataTemp,
+        selectedColor: dataTemp.detail.color[0]
       })
 
     })
@@ -76,10 +95,10 @@ class ProductDetailPage extends React.Component {
     } = this.state;
 
     const proInfo = {
-      id: dataProInfo.id*1,
+      id: dataProInfo.id,
       name: dataProInfo.name,
       salePrice: dataProInfo.price.salePrice,
-      srcImg: dataProInfo.images.imgProduct,
+      srcImg: dataProInfo.id +'/' + selectedColor + '.jpeg',
       quantity: 1,
       color: selectedColor,
       size: selectedSize

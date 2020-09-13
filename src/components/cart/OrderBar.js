@@ -15,12 +15,12 @@ const OrderBar = (props) => {
   const itemsOrder = cart.map(function(item,index){
     valueTotal += item.quantity * item.salePrice;
     return(
-      <OrderItem key={item.id} {...item} handleChangeItemQuantity={handleChangeItemQuantity} />
+      <OrderItem  {...item} handleChangeItemQuantity={handleChangeItemQuantity} />
     )
   });
 
   return(
-    <Grid.Column id='order-bar' as='aside' width='4' textAlign='left'>
+    <Grid.Column id='order-bar' as='aside' width='6' textAlign='left'>
       <Header as='h2' className='order-header' content='YOUR ORDER' dividing/>
       <Item.Group divided>
         {itemsOrder}

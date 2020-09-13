@@ -1,3 +1,25 @@
 #product-info .market-price{
       text-decoration: line-through;
 }
+
+.product-detail-color{
+      margin: 1rem 0;
+}
+
+.product-detail-color .selected{
+      border: 2px solid black;
+      border-radius: 8px;
+}
+.product-detail-color .unselected{
+      border: 2px solid white;
+      border-radius: 8px;
+}
+
+.product-detail-size{
+      margin-top: 1rem;
+}
+
+.product-detail-add-to-cart {
+      margin: 1rem 0;
+}
+
