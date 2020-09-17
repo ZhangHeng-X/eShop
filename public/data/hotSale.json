@@ -1,0 +1,394 @@
+[
+    {
+        "id": "120000201510101759A",
+        "category": "kids",
+        "type": "boys",
+        "name": "Slim Fit Denim Shorts A",
+        "price": {
+            "marketPrice": 56,
+            "salePrice": 44
+        },
+        "imgSrc": "120000201510101759",
+        "color": [
+            "blue",
+            "black"
+        ],
+        "des": "Knee-length shorts in washed stretch denim. Adjustable elasticized waistband and zip fly with button. Front pockets and back pockets."
+    },
+    {
+        "id": "510000198005279896A",
+        "category": "kids",
+        "type": "boys",
+        "name": "3-pack Cotton T-shirts A",
+        "price": {
+            "marketPrice": 49,
+            "salePrice": 38
+        },
+        "imgSrc": "510000198005279896",
+        "color": [
+            "pink",
+            "black"
+        ],
+        "des": "T-shirts in soft, organic cotton jersey. Rounded neckline."
+    },
+    {
+        "id": "820000197202181052A",
+        "category": "kids",
+        "type": "girls",
+        "name": "Printed Top A",
+        "price": {
+            "marketPrice": 37,
+            "salePrice": 18
+        },
+        "imgSrc": "820000197202181052",
+        "color": [
+            "red",
+            "pink",
+            "black"
+        ],
+        "des": "Short-sleeved top in cotton jersey with a printed design at front. Rounded hem, longer at back."
+    },
+    {
+        "id": "620000199911294377A",
+        "category": "kids",
+        "type": "girls",
+        "name": "Printed Bomber Jacket A",
+        "price": {
+            "marketPrice": 13,
+            "salePrice": 0
+        },
+        "imgSrc": "620000199911294377",
+        "color": [
+            "pink",
+            "black"
+        ],
+        "des": "Bomber jacket in woven fabric with a printed design at front and back. Small, ribbed stand-up collar and zipper at front. Diagonal side pockets and a sleeve pocket with zipper. Visible, gathered seams on sleeves and ribbing at cuffs and hem. Lined."
+    },
+    {
+        "id": "150000199304290232A",
+        "category": "men",
+        "type": "jeans",
+        "name": "Skinny Jeans A",
+        "price": {
+            "marketPrice": 51,
+            "salePrice": 37
+        },
+        "imgSrc": "150000199304290232",
+        "color": [
+            "blue",
+            "black"
+        ],
+        "des": "5-pocket jeans in washed stretch denim with heavily distressed details. Regular waist, zip fly with button, and skinny legs. Made partly from recycled cotton."
+    },
+    {
+        "id": "220000198301293431A",
+        "category": "men",
+        "type": "jeans",
+        "name": "Skinny Biker Jeans A",
+        "price": {
+            "marketPrice": 44,
+            "salePrice": 30
+        },
+        "imgSrc": "220000198301293431",
+        "color": [
+            "blue",
+            "black"
+        ],
+        "des": "5-pocket jeans in washed stretch denim with a regular waist and button fly. Skinny legs with quilted sections on knees."
+    },
+    {
+        "id": "410000199307317035A",
+        "category": "men",
+        "type": "shirts",
+        "name": "Regular Fit Cotton Shirt A",
+        "price": {
+            "marketPrice": 26,
+            "salePrice": 9
+        },
+        "imgSrc": "410000199307317035",
+        "color": [
+            "white",
+            "blue",
+            "green"
+        ],
+        "des": "Shirt in airy, end-on-end cotton fabric with a button-down collar, classic button placket, and open chest pocket. Long sleeves and adjustable cuffs with buttons. Yoke at back with pleat and locker loop. Rounded hem, slightly longer at back. Regular fit – a classic fit with good room for movement and a gently tapered waist for a comfortable, tailored silhouette."
+    },
+    {
+        "id": "360000199110012428A",
+        "category": "men",
+        "type": "shirts",
+        "name": "Regular Fit Shirt A",
+        "price": {
+            "marketPrice": 55,
+            "salePrice": 36
+        },
+        "imgSrc": "360000199110012428",
+        "color": [
+            "yellow",
+            "blue"
+        ],
+        "des": "Plaid shirt in woven fabric with a turn-down collar. Classic button placket, yoke at back, and long sleeves with adjustable buttoning at cuffs. Rounded hem. Regular Fit – a classic fit with good room for movement and a gently tapered waist for a comfortable, tailored silhouette."
+    },
+    {
+        "id": "450000201402144416A",
+        "category": "men",
+        "type": "shirts",
+        "name": "Regular Fit Oxford Shirt A",
+        "price": {
+            "marketPrice": 36,
+            "salePrice": 20
+        },
+        "imgSrc": "450000201402144416",
+        "color": [
+            "blue",
+            "black",
+            "white"
+        ],
+        "des": "Long-sleeved shirt in washed oxford-weave cotton fabric. Button-down collar, yoke at back with locker loop, and chest pocket. Regular Fit – classic fit with good room for movement and gently tapered waist for a comfortable, tailored silhouette."
+    },
+    {
+        "id": "350000198710318109A",
+        "category": "men",
+        "type": "shoes",
+        "name": "Shoes Sneakers A",
+        "price": {
+            "marketPrice": 25,
+            "salePrice": 10
+        },
+        "imgSrc": "350000198710318109",
+        "color": [
+            "beige",
+            "white",
+            "blue"
+        ],
+        "des": "Sneakers with lacing at front. Leather lining, leather insoles, and thermoplastic rubber (TPR) soles."
+    },
+    {
+        "id": "820000197712162580A",
+        "category": "men",
+        "type": "shoes",
+        "name": "Slip-on Shoes A",
+        "price": {
+            "marketPrice": 36,
+            "salePrice": 18
+        },
+        "imgSrc": "820000197712162580",
+        "color": [
+            "brown",
+            "black",
+            "white"
+        ],
+        "des": "Slip-on shoes with elastic side panels and loop at back. Faux cork insoles and textured rubber soles."
+    },
+    {
+        "id": "610000198904252666A",
+        "category": "men",
+        "type": "shorts",
+        "name": "Slim Denim Shorts A",
+        "price": {
+            "marketPrice": 19,
+            "salePrice": 2
+        },
+        "imgSrc": "610000198904252666",
+        "color": [
+            "black",
+            "grey",
+            "blue"
+        ],
+        "des": "5-pocket shorts in washed, stretch cotton denim. Regular waist, zip fly with button, and slim legs that finish just above knee. Cotton content is partly recycled."
+    },
+    {
+        "id": "130000198406201853A",
+        "category": "men",
+        "type": "shorts",
+        "name": "Cotton Shorts A",
+        "price": {
+            "marketPrice": 43,
+            "salePrice": 30
+        },
+        "imgSrc": "130000198406201853",
+        "color": [
+            "pink",
+            "black",
+            "yellow",
+            "green"
+        ],
+        "des": "Shorts in woven cotton fabric. Elasticized waistband with drawstring and mock fly. Side pockets and a welt back pocket."
+    },
+    {
+        "id": "23000019950126341XA",
+        "category": "men",
+        "type": "t-shirts",
+        "name": "T-shirt with Printed Design A",
+        "price": {
+            "marketPrice": 47,
+            "salePrice": 36
+        },
+        "imgSrc": "23000019950126341X",
+        "color": [
+            "yellow",
+            "grey",
+            "red"
+        ],
+        "des": "T-shirt in soft cotton jersey with a printed design."
+    },
+    {
+        "id": "410000198608225893A",
+        "category": "men",
+        "type": "t-shirts",
+        "name": "Slim Fit Polo Shirt A",
+        "price": {
+            "marketPrice": 48,
+            "salePrice": 37
+        },
+        "imgSrc": "410000198608225893",
+        "color": [
+            "orange",
+            "pink",
+            "green"
+        ],
+        "des": "Short-sleeved polo shirt in soft jersey with a collar and button placket."
+    },
+    {
+        "id": "220000198902263385A",
+        "category": "women",
+        "type": "dresses",
+        "name": "Ruffle-trimmed Dress A",
+        "price": {
+            "marketPrice": 24,
+            "salePrice": 5
+        },
+        "imgSrc": "220000198902263385",
+        "color": [
+            "white",
+            "blue"
+        ],
+        "des": "Calf-length, A-line dress in airy, woven fabric. V-neck with ruffle trim extending over shoulder straps. Covered elastic at top of back. Unlined."
+    },
+    {
+        "id": "330000200909201182A",
+        "category": "women",
+        "type": "dresses",
+        "name": "Denim Shirt Dress A",
+        "price": {
+            "marketPrice": 29,
+            "salePrice": 18
+        },
+        "imgSrc": "330000200909201182",
+        "color": [
+            "blue"
+        ],
+        "des": "Short, fitted dress in washed denim. Collar, buttons full length of front, and short puff sleeves with narrow, elasticized cuffs. Seam at waist and gently flared skirt. Unlined. Cotton content is partly recycled."
+    },
+    {
+        "id": "140000201009186764A",
+        "category": "women",
+        "type": "dresses",
+        "name": "Collared Poplin Dress A",
+        "price": {
+            "marketPrice": 43,
+            "salePrice": 29
+        },
+        "imgSrc": "140000201009186764",
+        "color": [
+            "pink",
+            "black"
+        ],
+        "des": "Short dress in cotton poplin with a large, ruffle-trimmed collar. Small opening at back of neck with button, gathered seam at waist, 3/4-length puff sleeves, and narrow cuffs with buttons. Unlined."
+    },
+    {
+        "id": "650000198010142633A",
+        "category": "women",
+        "type": "shoes",
+        "name": "Slingbacks Shoes A",
+        "price": {
+            "marketPrice": 35,
+            "salePrice": 23
+        },
+        "imgSrc": "650000198010142633",
+        "color": [
+            "orange",
+            "brown"
+        ],
+        "des": "Slingbacks in faux suede with pointed toes. Satin lining and faux leather insoles."
+    },
+    {
+        "id": "230000201509169970A",
+        "category": "women",
+        "type": "shoes",
+        "name": "Knee-high Boots A",
+        "price": {
+            "marketPrice": 48,
+            "salePrice": 34
+        },
+        "imgSrc": "230000201509169970",
+        "color": [
+            "brown",
+            "black"
+        ],
+        "des": "Knee-high boots in imitation leather with square toes and high heels. Satin linings made from recycled polyester, imitation leather insoles and rubber soles. Heel 9 cm."
+    },
+    {
+        "id": "510000197507210130A",
+        "category": "women",
+        "type": "shorts",
+        "name": "Cotton Jersey Cycling Shorts A",
+        "price": {
+            "marketPrice": 31,
+            "salePrice": 19
+        },
+        "imgSrc": "510000197507210130",
+        "color": [
+            "black",
+            "grey"
+        ],
+        "des": "Cycling shorts in stretch cotton jersey with an elasticized waistband."
+    },
+    {
+        "id": "540000198201251562A",
+        "category": "women",
+        "type": "shorts",
+        "name": "Denim Shorts High Waist A",
+        "price": {
+            "marketPrice": 40,
+            "salePrice": 26
+        },
+        "imgSrc": "540000198201251562",
+        "color": [
+            "purple",
+            "blue"
+        ],
+        "des": "Short, 5-pocket shorts in washed denim with heavily distressed details. High waist and button fly. Sewn foldover cuffs with raw-edge, cut-off hems."
+    },
+    {
+        "id": "230000199312312649A",
+        "category": "women",
+        "type": "skirts",
+        "name": "Flounced Skirt A",
+        "price": {
+            "marketPrice": 25,
+            "salePrice": 11
+        },
+        "imgSrc": "230000199312312649",
+        "color": [
+            "black",
+            "brown"
+        ],
+        "des": "Short, A-line skirt with a zipper at back and flounce at hem."
+    },
+    {
+        "id": "460000197511038615A",
+        "category": "women",
+        "type": "skirts",
+        "name": "A-line Denim Skirt A",
+        "price": {
+            "marketPrice": 59,
+            "salePrice": 42
+        },
+        "imgSrc": "460000197511038615",
+        "color": [
+            "blue"
+        ],
+        "des": "Calf-length, A-line skirt in washed cotton denim with a soft finish. High waist and zip fly with button. Front pockets, coin pocket, and back pockets. Raw-edge hem."
+    }
+]
