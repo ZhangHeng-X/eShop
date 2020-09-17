@@ -76,6 +76,7 @@ class RouteApp extends React.Component {
   }
 
   render(){
+    console.log(process.env.PUBLIC_URL)
 
     const {
       handleAddToCart,
@@ -89,13 +90,12 @@ class RouteApp extends React.Component {
     } = this.state;
 
     return(
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div id='body'>
           <Route render={(props)=>(
             <Header {...props} cart={cart} handleChangeItemQuantity={handleChangeItemQuantity} />
           )} />
           <Switch>
-            <Redirect from='/eShop' to='/' />
             <Route exact path='/' component={Home} />
             <Route path='/search' component={SearchPage} />
             <Route path='/checkout' children={() => {
