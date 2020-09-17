@@ -20,7 +20,7 @@ class Home extends Component {
 
   componentDidMount() {
     axios
-    .get('/data/productData/hotSale.json')
+    .get(process.env.PUBLIC_URL + '/data/productData/hotSale.json')
     .then(res => {
       this.setState({dataHotSaleProduct: res.data})
     })

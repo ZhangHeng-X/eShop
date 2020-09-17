@@ -64,7 +64,7 @@ class RouteApp extends React.Component {
     const _this = this;
 
     axios
-    .get('/data/userdata.json')
+    .get(process.env.PUBLIC_URL + '/data/userdata.json')
     .then(res=> {
       res.data.forEach(function(item,index){
         if(item.email !== email)return;
