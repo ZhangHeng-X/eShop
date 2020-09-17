@@ -1,0 +1,152 @@
+[
+    {
+        "id": "23000019950126341X",
+        "category": "men",
+        "type": "t-shirts",
+        "name": "T-shirt with Printed Design",
+        "price": {
+            "marketPrice": 39,
+            "salePrice": 19
+        },
+        "detail": {
+            "color": [
+                "yellow",
+                "grey",
+                "red"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "T-shirt in soft cotton jersey with a printed design."
+        }
+    },
+    {
+        "id": "410000198608225893",
+        "category": "men",
+        "type": "t-shirts",
+        "name": "Slim Fit Polo Shirt",
+        "price": {
+            "marketPrice": 25,
+            "salePrice": 15
+        },
+        "detail": {
+            "color": [
+                "orange",
+                "pink",
+                "green"
+            ],
+            "size": [
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "Short-sleeved polo shirt in soft jersey with a collar and button placket."
+        }
+    },
+    {
+        "id": "23000019950126341X1",
+        "category": "men",
+        "type": "t-shirts",
+        "name": "T-shirt with Printed Design II",
+        "price": {
+            "marketPrice": 39,
+            "salePrice": 19
+        },
+        "detail": {
+            "color": [
+                "yellow",
+                "grey",
+                "red"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "T-shirt in soft cotton jersey with a printed design."
+        }
+    },
+    {
+        "id": "410000198608225894",
+        "category": "men",
+        "type": "t-shirts",
+        "name": "Slim Fit Polo Shirt II",
+        "price": {
+            "marketPrice": 25,
+            "salePrice": 15
+        },
+        "detail": {
+            "color": [
+                "orange",
+                "pink",
+                "green"
+            ],
+            "size": [
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "Short-sleeved polo shirt in soft jersey with a collar and button placket."
+        }
+    },
+    {
+        "id": "23000019950126342X",
+        "category": "men",
+        "type": "t-shirts",
+        "name": "T-shirt with Printed Design III",
+        "price": {
+            "marketPrice": 39,
+            "salePrice": 19
+        },
+        "detail": {
+            "color": [
+                "yellow",
+                "grey",
+                "red"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "T-shirt in soft cotton jersey with a printed design."
+        }
+    },
+    {
+        "id": "410000198608225903",
+        "category": "men",
+        "type": "t-shirts",
+        "name": "Slim Fit Polo Shirt III",
+        "price": {
+            "marketPrice": 25,
+            "salePrice": 15
+        },
+        "detail": {
+            "color": [
+                "orange",
+                "pink",
+                "green"
+            ],
+            "size": [
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "Short-sleeved polo shirt in soft jersey with a collar and button placket."
+        }
+    }
+]

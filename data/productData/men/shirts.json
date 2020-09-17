@@ -1,0 +1,209 @@
+[
+    {
+        "id": "410000199307317035",
+        "category": "men",
+        "type": "shirts",
+        "name": "Regular Fit Cotton Shirt",
+        "price": {
+            "marketPrice": 29,
+            "salePrice": 19
+        },
+        "detail": {
+            "color": [
+                "white",
+                "blue",
+                "green"
+            ],
+            "des": "Shirt in airy, end-on-end cotton fabric with a button-down collar, classic button placket, and open chest pocket. Long sleeves and adjustable cuffs with buttons. Yoke at back with pleat and locker loop. Rounded hem, slightly longer at back. Regular fit – a classic fit with good room for movement and a gently tapered waist for a comfortable, tailored silhouette."
+        }
+    },
+    {
+        "id": "360000199110012428",
+        "category": "men",
+        "type": "shirts",
+        "name": "Regular Fit Shirt",
+        "price": {
+            "marketPrice": 34,
+            "salePrice": 24
+        },
+        "detail": {
+            "color": [
+                "yellow",
+                "blue"
+            ],
+            "size": [
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "Plaid shirt in woven fabric with a turn-down collar. Classic button placket, yoke at back, and long sleeves with adjustable buttoning at cuffs. Rounded hem. Regular Fit – a classic fit with good room for movement and a gently tapered waist for a comfortable, tailored silhouette."
+        }
+    },
+    {
+        "id": "450000201402144416",
+        "category": "men",
+        "type": "shirts",
+        "name": "Regular Fit Oxford Shirt",
+        "price": {
+            "marketPrice": 34,
+            "salePrice": 24
+        },
+        "detail": {
+            "color": [
+                "blue",
+                "black",
+                "white"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "Long-sleeved shirt in washed oxford-weave cotton fabric. Button-down collar, yoke at back with locker loop, and chest pocket. Regular Fit – classic fit with good room for movement and gently tapered waist for a comfortable, tailored silhouette."
+        }
+    },
+    {
+        "id": "410000199307317036",
+        "category": "men",
+        "type": "shirts",
+        "name": "Regular Fit Cotton Shirt II",
+        "price": {
+            "marketPrice": 29,
+            "salePrice": 19
+        },
+        "detail": {
+            "color": [
+                "white",
+                "blue",
+                "green"
+            ],
+            "des": "Shirt in airy, end-on-end cotton fabric with a button-down collar, classic button placket, and open chest pocket. Long sleeves and adjustable cuffs with buttons. Yoke at back with pleat and locker loop. Rounded hem, slightly longer at back. Regular fit – a classic fit with good room for movement and a gently tapered waist for a comfortable, tailored silhouette."
+        }
+    },
+    {
+        "id": "360000199110012429",
+        "category": "men",
+        "type": "shirts",
+        "name": "Regular Fit Shirt II",
+        "price": {
+            "marketPrice": 34,
+            "salePrice": 24
+        },
+        "detail": {
+            "color": [
+                "yellow",
+                "blue"
+            ],
+            "size": [
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "Plaid shirt in woven fabric with a turn-down collar. Classic button placket, yoke at back, and long sleeves with adjustable buttoning at cuffs. Rounded hem. Regular Fit – a classic fit with good room for movement and a gently tapered waist for a comfortable, tailored silhouette."
+        }
+    },
+    {
+        "id": "450000201402144417",
+        "category": "men",
+        "type": "shirts",
+        "name": "Regular Fit Oxford Shirt II",
+        "price": {
+            "marketPrice": 34,
+            "salePrice": 24
+        },
+        "detail": {
+            "color": [
+                "blue",
+                "black",
+                "white"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "Long-sleeved shirt in washed oxford-weave cotton fabric. Button-down collar, yoke at back with locker loop, and chest pocket. Regular Fit – classic fit with good room for movement and gently tapered waist for a comfortable, tailored silhouette."
+        }
+    },
+    {
+        "id": "410000199307317045",
+        "category": "men",
+        "type": "shirts",
+        "name": "Regular Fit Cotton Shirt III",
+        "price": {
+            "marketPrice": 29,
+            "salePrice": 19
+        },
+        "detail": {
+            "color": [
+                "white",
+                "blue",
+                "green"
+            ],
+            "des": "Shirt in airy, end-on-end cotton fabric with a button-down collar, classic button placket, and open chest pocket. Long sleeves and adjustable cuffs with buttons. Yoke at back with pleat and locker loop. Rounded hem, slightly longer at back. Regular fit – a classic fit with good room for movement and a gently tapered waist for a comfortable, tailored silhouette."
+        }
+    },
+    {
+        "id": "360000199110012438",
+        "category": "men",
+        "type": "shirts",
+        "name": "Regular Fit Shirt III",
+        "price": {
+            "marketPrice": 34,
+            "salePrice": 24
+        },
+        "detail": {
+            "color": [
+                "yellow",
+                "blue"
+            ],
+            "size": [
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "Plaid shirt in woven fabric with a turn-down collar. Classic button placket, yoke at back, and long sleeves with adjustable buttoning at cuffs. Rounded hem. Regular Fit – a classic fit with good room for movement and a gently tapered waist for a comfortable, tailored silhouette."
+        }
+    },
+    {
+        "id": "450000201402144426",
+        "category": "men",
+        "type": "shirts",
+        "name": "Regular Fit Oxford Shirt III",
+        "price": {
+            "marketPrice": 34,
+            "salePrice": 24
+        },
+        "detail": {
+            "color": [
+                "blue",
+                "black",
+                "white"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "Long-sleeved shirt in washed oxford-weave cotton fabric. Button-down collar, yoke at back with locker loop, and chest pocket. Regular Fit – classic fit with good room for movement and gently tapered waist for a comfortable, tailored silhouette."
+        }
+    }
+]

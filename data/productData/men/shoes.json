@@ -1,0 +1,155 @@
+[
+    {
+        "id": "350000198710318109",
+        "category": "men",
+        "type": "shoes",
+        "name": "Shoes Sneakers",
+        "price": {
+            "marketPrice": 99,
+            "salePrice": 69
+        },
+        "detail": {
+            "color": [
+                "beige",
+                "white",
+                "blue"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Sneakers with lacing at front. Leather lining, leather insoles, and thermoplastic rubber (TPR) soles."
+        }
+    },
+    {
+        "id": "820000197712162580",
+        "category": "men",
+        "type": "shoes",
+        "name": "Slip-on Shoes",
+        "price": {
+            "marketPrice": 32,
+            "salePrice": 25
+        },
+        "detail": {
+            "color": [
+                "brown",
+                "black",
+                "white"
+            ],
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "Slip-on shoes with elastic side panels and loop at back. Faux cork insoles and textured rubber soles."
+        }
+    },
+    {
+        "id": "350000198710318110",
+        "category": "men",
+        "type": "shoes",
+        "name": "Shoes Sneakers II",
+        "price": {
+            "marketPrice": 99,
+            "salePrice": 69
+        },
+        "detail": {
+            "color": [
+                "beige",
+                "white",
+                "blue"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Sneakers with lacing at front. Leather lining, leather insoles, and thermoplastic rubber (TPR) soles."
+        }
+    },
+    {
+        "id": "820000197712162581",
+        "category": "men",
+        "type": "shoes",
+        "name": "Slip-on Shoes II",
+        "price": {
+            "marketPrice": 32,
+            "salePrice": 25
+        },
+        "detail": {
+            "color": [
+                "brown",
+                "black",
+                "white"
+            ],
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "Slip-on shoes with elastic side panels and loop at back. Faux cork insoles and textured rubber soles."
+        }
+    },
+    {
+        "id": "350000198710318119",
+        "category": "men",
+        "type": "shoes",
+        "name": "Shoes Sneakers III",
+        "price": {
+            "marketPrice": 99,
+            "salePrice": 69
+        },
+        "detail": {
+            "color": [
+                "beige",
+                "white",
+                "blue"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Sneakers with lacing at front. Leather lining, leather insoles, and thermoplastic rubber (TPR) soles."
+        }
+    },
+    {
+        "id": "820000197712162590",
+        "category": "men",
+        "type": "shoes",
+        "name": "Slip-on Shoes III",
+        "price": {
+            "marketPrice": 32,
+            "salePrice": 25
+        },
+        "detail": {
+            "color": [
+                "brown",
+                "black",
+                "white"
+            ],
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "Slip-on shoes with elastic side panels and loop at back. Faux cork insoles and textured rubber soles."
+        }
+    }
+]

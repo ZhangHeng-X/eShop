@@ -1,0 +1,149 @@
+[
+    {
+        "id": "150000199304290232",
+        "category": "men",
+        "type": "jeans",
+        "name": "Skinny Jeans",
+        "price": {
+            "marketPrice": 39,
+            "salePrice": 29
+        },
+        "detail": {
+            "color": [
+                "blue",
+                "black"
+            ],
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "5-pocket jeans in washed stretch denim with heavily distressed details. Regular waist, zip fly with button, and skinny legs. Made partly from recycled cotton."
+        }
+    },
+    {
+        "id": "220000198301293431",
+        "category": "men",
+        "type": "jeans",
+        "name": "Skinny Biker Jeans",
+        "price": {
+            "marketPrice": 49,
+            "salePrice": 39
+        },
+        "detail": {
+            "color": [
+                "blue",
+                "black"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "5-pocket jeans in washed stretch denim with a regular waist and button fly. Skinny legs with quilted sections on knees."
+        }
+    },
+    {
+        "id": "150000199304290233",
+        "category": "men",
+        "type": "jeans",
+        "name": "Skinny Jeans II",
+        "price": {
+            "marketPrice": 39,
+            "salePrice": 29
+        },
+        "detail": {
+            "color": [
+                "blue",
+                "black"
+            ],
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "5-pocket jeans in washed stretch denim with heavily distressed details. Regular waist, zip fly with button, and skinny legs. Made partly from recycled cotton."
+        }
+    },
+    {
+        "id": "220000198301293432",
+        "category": "men",
+        "type": "jeans",
+        "name": "Skinny Biker Jeans II",
+        "price": {
+            "marketPrice": 49,
+            "salePrice": 39
+        },
+        "detail": {
+            "color": [
+                "blue",
+                "black"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "5-pocket jeans in washed stretch denim with a regular waist and button fly. Skinny legs with quilted sections on knees."
+        }
+    },
+    {
+        "id": "150000199304290242",
+        "category": "men",
+        "type": "jeans",
+        "name": "Skinny Jeans III",
+        "price": {
+            "marketPrice": 39,
+            "salePrice": 29
+        },
+        "detail": {
+            "color": [
+                "blue",
+                "black"
+            ],
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "5-pocket jeans in washed stretch denim with heavily distressed details. Regular waist, zip fly with button, and skinny legs. Made partly from recycled cotton."
+        }
+    },
+    {
+        "id": "220000198301293441",
+        "category": "men",
+        "type": "jeans",
+        "name": "Skinny Biker Jeans III",
+        "price": {
+            "marketPrice": 49,
+            "salePrice": 39
+        },
+        "detail": {
+            "color": [
+                "blue",
+                "black"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "5-pocket jeans in washed stretch denim with a regular waist and button fly. Skinny legs with quilted sections on knees."
+        }
+    }
+]

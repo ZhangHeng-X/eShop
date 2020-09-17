@@ -1,0 +1,161 @@
+[
+    {
+        "id": "610000198904252666",
+        "category": "men",
+        "type": "shorts",
+        "name": "Slim Denim Shorts",
+        "price": {
+            "marketPrice": 39,
+            "salePrice": 29
+        },
+        "detail": {
+            "color": [
+                "black",
+                "grey",
+                "blue"
+            ],
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "5-pocket shorts in washed, stretch cotton denim. Regular waist, zip fly with button, and slim legs that finish just above knee. Cotton content is partly recycled."
+        }
+    },
+    {
+        "id": "130000198406201853",
+        "category": "men",
+        "type": "shorts",
+        "name": "Cotton Shorts",
+        "price": {
+            "marketPrice": 40,
+            "salePrice": 16
+        },
+        "detail": {
+            "color": [
+                "pink",
+                "black",
+                "yellow",
+                "green"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "des": "Shorts in woven cotton fabric. Elasticized waistband with drawstring and mock fly. Side pockets and a welt back pocket."
+        }
+    },
+    {
+        "id": "610000198904252667",
+        "category": "men",
+        "type": "shorts",
+        "name": "Slim Denim Shorts II",
+        "price": {
+            "marketPrice": 39,
+            "salePrice": 29
+        },
+        "detail": {
+            "color": [
+                "black",
+                "grey",
+                "blue"
+            ],
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "5-pocket shorts in washed, stretch cotton denim. Regular waist, zip fly with button, and slim legs that finish just above knee. Cotton content is partly recycled."
+        }
+    },
+    {
+        "id": "130000198406201854",
+        "category": "men",
+        "type": "shorts",
+        "name": "Cotton Shorts II",
+        "price": {
+            "marketPrice": 40,
+            "salePrice": 16
+        },
+        "detail": {
+            "color": [
+                "pink",
+                "black",
+                "yellow",
+                "green"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "des": "Shorts in woven cotton fabric. Elasticized waistband with drawstring and mock fly. Side pockets and a welt back pocket."
+        }
+    },
+    {
+        "id": "610000198904252676",
+        "category": "men",
+        "type": "shorts",
+        "name": "Slim Denim Shorts III",
+        "price": {
+            "marketPrice": 39,
+            "salePrice": 29
+        },
+        "detail": {
+            "color": [
+                "black",
+                "grey",
+                "blue"
+            ],
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "XXXL"
+            ],
+            "des": "5-pocket shorts in washed, stretch cotton denim. Regular waist, zip fly with button, and slim legs that finish just above knee. Cotton content is partly recycled."
+        }
+    },
+    {
+        "id": "130000198406201863",
+        "category": "men",
+        "type": "shorts",
+        "name": "Cotton Shorts III",
+        "price": {
+            "marketPrice": 40,
+            "salePrice": 16
+        },
+        "detail": {
+            "color": [
+                "pink",
+                "black",
+                "yellow",
+                "green"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "des": "Shorts in woven cotton fabric. Elasticized waistband with drawstring and mock fly. Side pockets and a welt back pocket."
+        }
+    }
+]

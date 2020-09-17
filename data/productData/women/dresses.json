@@ -1,0 +1,218 @@
+[
+    {
+        "id": "220000198902263385",
+        "category": "women",
+        "type": "dresses",
+        "name": "Ruffle-trimmed Dress",
+        "price": {
+            "marketPrice": 49,
+            "salePrice": 29
+        },
+        "detail": {
+            "color": [
+                "white",
+                "blue"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Calf-length, A-line dress in airy, woven fabric. V-neck with ruffle trim extending over shoulder straps. Covered elastic at top of back. Unlined."
+        }
+    },
+    {
+        "id": "330000200909201182",
+        "category": "women",
+        "type": "dresses",
+        "name": "Denim Shirt Dress",
+        "price": {
+            "marketPrice": 109,
+            "salePrice": 69
+        },
+        "detail": {
+            "color": [
+                "blue"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "des": "Short, fitted dress in washed denim. Collar, buttons full length of front, and short puff sleeves with narrow, elasticized cuffs. Seam at waist and gently flared skirt. Unlined. Cotton content is partly recycled."
+        }
+    },
+    {
+        "id": "140000201009186764",
+        "category": "women",
+        "type": "dresses",
+        "name": "Collared Poplin Dress",
+        "price": {
+            "marketPrice": 49,
+            "salePrice": 29
+        },
+        "detail": {
+            "color": [
+                "pink",
+                "black"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Short dress in cotton poplin with a large, ruffle-trimmed collar. Small opening at back of neck with button, gathered seam at waist, 3/4-length puff sleeves, and narrow cuffs with buttons. Unlined."
+        }
+    },
+    {
+        "id": "220000198902263386",
+        "category": "women",
+        "type": "dresses",
+        "name": "Ruffle-trimmed Dress II",
+        "price": {
+            "marketPrice": 49,
+            "salePrice": 29
+        },
+        "detail": {
+            "color": [
+                "white",
+                "blue"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Calf-length, A-line dress in airy, woven fabric. V-neck with ruffle trim extending over shoulder straps. Covered elastic at top of back. Unlined."
+        }
+    },
+    {
+        "id": "330000200909201183",
+        "category": "women",
+        "type": "dresses",
+        "name": "Denim Shirt Dress II",
+        "price": {
+            "marketPrice": 109,
+            "salePrice": 69
+        },
+        "detail": {
+            "color": [
+                "blue"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "des": "Short, fitted dress in washed denim. Collar, buttons full length of front, and short puff sleeves with narrow, elasticized cuffs. Seam at waist and gently flared skirt. Unlined. Cotton content is partly recycled."
+        }
+    },
+    {
+        "id": "140000201009186765",
+        "category": "women",
+        "type": "dresses",
+        "name": "Collared Poplin Dress II",
+        "price": {
+            "marketPrice": 49,
+            "salePrice": 29
+        },
+        "detail": {
+            "color": [
+                "pink",
+                "black"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Short dress in cotton poplin with a large, ruffle-trimmed collar. Small opening at back of neck with button, gathered seam at waist, 3/4-length puff sleeves, and narrow cuffs with buttons. Unlined."
+        }
+    },
+    {
+        "id": "220000198902263395",
+        "category": "women",
+        "type": "dresses",
+        "name": "Ruffle-trimmed Dress III",
+        "price": {
+            "marketPrice": 49,
+            "salePrice": 29
+        },
+        "detail": {
+            "color": [
+                "white",
+                "blue"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Calf-length, A-line dress in airy, woven fabric. V-neck with ruffle trim extending over shoulder straps. Covered elastic at top of back. Unlined."
+        }
+    },
+    {
+        "id": "330000200909201192",
+        "category": "women",
+        "type": "dresses",
+        "name": "Denim Shirt Dress III",
+        "price": {
+            "marketPrice": 109,
+            "salePrice": 69
+        },
+        "detail": {
+            "color": [
+                "blue"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "des": "Short, fitted dress in washed denim. Collar, buttons full length of front, and short puff sleeves with narrow, elasticized cuffs. Seam at waist and gently flared skirt. Unlined. Cotton content is partly recycled."
+        }
+    },
+    {
+        "id": "140000201009186774",
+        "category": "women",
+        "type": "dresses",
+        "name": "Collared Poplin Dress III",
+        "price": {
+            "marketPrice": 49,
+            "salePrice": 29
+        },
+        "detail": {
+            "color": [
+                "pink",
+                "black"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Short dress in cotton poplin with a large, ruffle-trimmed collar. Small opening at back of neck with button, gathered seam at waist, 3/4-length puff sleeves, and narrow cuffs with buttons. Unlined."
+        }
+    }
+]

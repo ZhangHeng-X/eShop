@@ -1,0 +1,151 @@
+[
+    {
+        "id": "120000201510101759",
+        "category": "kids",
+        "type": "boys",
+        "name": "Slim Fit Denim Shorts",
+        "price": {
+            "marketPrice": 45,
+            "salePrice": 24
+        },
+        "detail": {
+            "color": [
+                "blue",
+                "black"
+            ],
+            "size": [
+                "68CM",
+                "74CM",
+                "80CM",
+                "86CM",
+                "92CM",
+                "98CM"
+            ],
+            "des": "Knee-length shorts in washed stretch denim. Adjustable elasticized waistband and zip fly with button. Front pockets and back pockets."
+        }
+    },
+    {
+        "id": "510000198005279896",
+        "category": "kids",
+        "type": "boys",
+        "name": "3-pack Cotton T-shirts",
+        "price": {
+            "marketPrice": 54,
+            "salePrice": 34
+        },
+        "detail": {
+            "color": [
+                "pink",
+                "black"
+            ],
+            "size": [
+                "68CM",
+                "74CM",
+                "80CM",
+                "86CM",
+                "92CM",
+                "98CM"
+            ],
+            "des": "T-shirts in soft, organic cotton jersey. Rounded neckline."
+        }
+    },
+    {
+        "id": "120000201510101760",
+        "category": "kids",
+        "type": "boys",
+        "name": "Slim Fit Denim Shorts II",
+        "price": {
+            "marketPrice": 45,
+            "salePrice": 24
+        },
+        "detail": {
+            "color": [
+                "blue",
+                "black"
+            ],
+            "size": [
+                "68CM",
+                "74CM",
+                "80CM",
+                "86CM",
+                "92CM",
+                "98CM"
+            ],
+            "des": "Knee-length shorts in washed stretch denim. Adjustable elasticized waistband and zip fly with button. Front pockets and back pockets."
+        }
+    },
+    {
+        "id": "510000198005279897",
+        "category": "kids",
+        "type": "boys",
+        "name": "3-pack Cotton T-shirts II",
+        "price": {
+            "marketPrice": 54,
+            "salePrice": 34
+        },
+        "detail": {
+            "color": [
+                "pink",
+                "black"
+            ],
+            "size": [
+                "68CM",
+                "74CM",
+                "80CM",
+                "86CM",
+                "92CM",
+                "98CM"
+            ],
+            "des": "T-shirts in soft, organic cotton jersey. Rounded neckline."
+        }
+    },{
+        "id": "120000201510101769",
+        "category": "kids",
+        "type": "boys",
+        "name": "Slim Fit Denim Shorts III",
+        "price": {
+            "marketPrice": 45,
+            "salePrice": 24
+        },
+        "detail": {
+            "color": [
+                "blue",
+                "black"
+            ],
+            "size": [
+                "68CM",
+                "74CM",
+                "80CM",
+                "86CM",
+                "92CM",
+                "98CM"
+            ],
+            "des": "Knee-length shorts in washed stretch denim. Adjustable elasticized waistband and zip fly with button. Front pockets and back pockets."
+        }
+    },
+    {
+        "id": "510000198005279906",
+        "category": "kids",
+        "type": "boys",
+        "name": "3-pack Cotton T-shirts III",
+        "price": {
+            "marketPrice": 54,
+            "salePrice": 34
+        },
+        "detail": {
+            "color": [
+                "pink",
+                "black"
+            ],
+            "size": [
+                "68CM",
+                "74CM",
+                "80CM",
+                "86CM",
+                "92CM",
+                "98CM"
+            ],
+            "des": "T-shirts in soft, organic cotton jersey. Rounded neckline."
+        }
+    }
+]

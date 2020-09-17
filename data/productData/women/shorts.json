@@ -1,0 +1,146 @@
+[
+    {
+        "id": "510000197507210130",
+        "category": "women",
+        "type": "shorts",
+        "name": "Cotton Jersey Cycling Shorts",
+        "price": {
+            "marketPrice": 19,
+            "salePrice": 9
+        },
+        "detail": {
+            "color": [
+                "black",
+                "grey"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Cycling shorts in stretch cotton jersey with an elasticized waistband."
+        }
+    },
+    {
+        "id": "540000198201251562",
+        "category": "women",
+        "type": "shorts",
+        "name": "Denim Shorts High Waist",
+        "price": {
+            "marketPrice": 25,
+            "salePrice": 10
+        },
+        "detail": {
+            "color": [
+                "purple",
+                "blue"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Short, 5-pocket shorts in washed denim with heavily distressed details. High waist and button fly. Sewn foldover cuffs with raw-edge, cut-off hems."
+        }
+    },
+    {
+        "id": "510000197507210131",
+        "category": "women",
+        "type": "shorts",
+        "name": "Cotton Jersey Cycling Shorts II",
+        "price": {
+            "marketPrice": 19,
+            "salePrice": 9
+        },
+        "detail": {
+            "color": [
+                "black",
+                "grey"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Cycling shorts in stretch cotton jersey with an elasticized waistband."
+        }
+    },
+    {
+        "id": "540000198201251563",
+        "category": "women",
+        "type": "shorts",
+        "name": "Denim Shorts High Waist II",
+        "price": {
+            "marketPrice": 25,
+            "salePrice": 10
+        },
+        "detail": {
+            "color": [
+                "purple",
+                "blue"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Short, 5-pocket shorts in washed denim with heavily distressed details. High waist and button fly. Sewn foldover cuffs with raw-edge, cut-off hems."
+        }
+    },
+    {
+        "id": "510000197507210140",
+        "category": "women",
+        "type": "shorts",
+        "name": "Cotton Jersey Cycling Shorts III",
+        "price": {
+            "marketPrice": 19,
+            "salePrice": 9
+        },
+        "detail": {
+            "color": [
+                "black",
+                "grey"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Cycling shorts in stretch cotton jersey with an elasticized waistband."
+        }
+    },
+    {
+        "id": "540000198201251572",
+        "category": "women",
+        "type": "shorts",
+        "name": "Denim Shorts High Waist III",
+        "price": {
+            "marketPrice": 25,
+            "salePrice": 10
+        },
+        "detail": {
+            "color": [
+                "purple",
+                "blue"
+            ],
+            "size": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "des": "Short, 5-pocket shorts in washed denim with heavily distressed details. High waist and button fly. Sewn foldover cuffs with raw-edge, cut-off hems."
+        }
+    }
+]
