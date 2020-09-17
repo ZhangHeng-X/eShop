@@ -1,9 +1,9 @@
 import React from 'react';
 import { Grid, Header } from 'semantic-ui-react';
 
-import LoginForm from '../user/LoginForm';
-import NewCustomer from '../user/NewCustomer';
-import OrderBar from './OrderBar';
+import LoginForm from '../user/loginForm';
+import NewCustomer from '../user/newCustomer';
+import OrderBar from './orderBar';
 
 const SigninStep = (props) => (
   <Grid.Row id='checkout'>

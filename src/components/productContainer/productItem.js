@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, Icon, Image } from 'semantic-ui-react';
-import axios from 'axios';
 import PT from 'prop-types'
 
 let propTypes = {
@@ -22,70 +21,7 @@ class ProductItem extends React.Component{
     }    
   }
 
-  componentWillReceiveProps(nextProps) {
-    if (nextProps.imgProd === this.props.imgProd) return;
-    axios
-    .get(
-      nextProps.imgProd,
-      { responseType: 'arraybuffer' },
-    )
-    .then(response => {
-      const base64 = btoa(
-        new Uint8Array(response.data).reduce(
-          (data, byte) => data + String.fromCharCode(byte),
-          '',
-        ),
-      );
-      this.setState({ imgProd: "data:;base64," + base64 });
-    });
 
-    axios
-    .get(
-      nextProps.imgModel,
-      { responseType: 'arraybuffer' },
-    )
-    .then(response => {
-      const base64 = btoa(
-        new Uint8Array(response.data).reduce(
-          (data, byte) => data + String.fromCharCode(byte),
-          '',
-        ),
-      );
-      this.setState({ imgModel: "data:;base64," + base64 });
-    });
-  }
-
-  componentDidUpdate() {
-    axios
-    .get(
-      this.props.imgProd,
-      { responseType: 'arraybuffer' },
-    )
-    .then(response => {
-      const base64 = btoa(
-        new Uint8Array(response.data).reduce(
-          (data, byte) => data + String.fromCharCode(byte),
-          '',
-        ),
-      );
-      this.setState({ imgProd: "data:;base64," + base64 });
-    });
-
-    axios
-    .get(
-      this.props.imgModel,
-      { responseType: 'arraybuffer' },
-    )
-    .then(response => {
-      const base64 = btoa(
-        new Uint8Array(response.data).reduce(
-          (data, byte) => data + String.fromCharCode(byte),
-          '',
-        ),
-      );
-      this.setState({ imgModel: "data:;base64," + base64 });
-    });
-  }
 
   render(){
     
@@ -100,6 +36,8 @@ class ProductItem extends React.Component{
     }
   } = this.props;
 
+  const imgProd = require('../../../public' + this.props.imgProd);
+  const imgModel = require('../../../public' + this.props.imgModel);
 
   return(
     <Card className='product-info'>
@@ -107,7 +45,7 @@ class ProductItem extends React.Component{
       <Link to={`/${category}/${type}/${id}`} >
         <Image 
             className='pro-images'
-            src={this.state.hovered ? this.state.imgModel : this.state.imgProd} 
+            src={this.state.hovered ? imgModel : imgProd} 
             onMouseOut={() => this.setState({hovered: false})}
             onMouseOver={() => this.setState({hovered: true})}
             fluid />

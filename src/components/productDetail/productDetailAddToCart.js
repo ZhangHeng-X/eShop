@@ -11,10 +11,11 @@ const ProductDetailAddToCart = (props) => {
   } = props;
 
   const btnAddToCart = (
-    <Button as='button' fluid className='add-to-cart' icon onClick={()=>{
+    <Button as='button' fluid className='add-to-cart' icon color='black' onClick={()=>{
       if (selectedSize !== '') handleAddToCart(proInfo);
     }}>
       <Icon name='cart' />
+      {' '}
       ADD TO CART
     </Button>
   )

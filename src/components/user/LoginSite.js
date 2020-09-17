@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Header, Message } from 'semantic-ui-react';
-import LoginForm from './LoginForm';
-import NewCustomer from'./NewCustomer';
+import LoginForm from './loginForm';
+import NewCustomer from'./newCustomer';
 import PT from 'prop-types';
 
 const propTypes = {

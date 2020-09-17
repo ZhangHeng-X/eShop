@@ -3,7 +3,6 @@ import { Route, Switch } from 'react-router-dom';
 import { Grid, Image } from 'semantic-ui-react';
 import CategorySidebar from './categorySidebar';
 import ProductContainer from '../productContainer/productContainer';
-import axios from 'axios';
 
 const CategoryBanner = (props) => {
     return(
@@ -24,19 +23,21 @@ class categoryPage extends Component {
 
   componentDidMount() {
     const arrSitePath = this.props.location.pathname.match(/\/[a-z\-]*/g);
-
     if (arrSitePath[1]) {
       this.handleGetData(arrSitePath.join(''));
     }
   }
 
   handleGetData(path){
-    axios
-    .get('/data/productData' + path + '.json')
-    .then(res => {
-        this.setState({dataProducts: res.data})
-    })
-    .catch(err => console.log(err))
+    let pathTemp = '/database.json'
+    let dataAll = require('../../../public/data/productData' + pathTemp);
+    let category = path.split('/')[1];
+    let type = path.split('/')[2];
+    let dataProducts = [] 
+    dataAll.forEach(item => {
+      if (item.category === category && item.type === type) dataProducts.push(item)
+    });
+    this.setState({dataProducts: dataProducts});
   }
 
   handleProList(path,nameProList){

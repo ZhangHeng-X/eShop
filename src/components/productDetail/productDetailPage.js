@@ -15,10 +15,10 @@ class ProductDetailPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedColor: '',
+      selectedColor: 'black',
       selectedSize: '',
       dataProInfo: {
-        "id": "Loading",
+        "id": "0",
         "category": "",
         "type": "",
         "name": "",
@@ -27,7 +27,9 @@ class ProductDetailPage extends React.Component {
             "salePrice": 0
         },
         "detail": {
-            "color": [],
+            "color": [
+              'black'
+            ],
             "size": [
                 "68CM",
                 "74CM",
@@ -63,22 +65,17 @@ class ProductDetailPage extends React.Component {
 
     const idProduct = arrPath[2];
 
-    axios
-    .get(pathCategory)
-    .then(res => {
-      let dataTemp = {};
-      res.data.forEach(function(item,index){
-        if (item.id === idProduct) {
-          dataTemp = JSON.parse(JSON.stringify(item));
-        }
-      })
-      this.setState({
-        dataProInfo: dataTemp,
-        selectedColor: dataTemp.detail.color[0]
-      })
-
+    let data = require('../../../public/data/productData/' + arrPath[0] + '/' + arrPath[1] + '.json')
+    let dataTemp = {}
+    data.forEach(function(item, index){
+      if (item.id === idProduct) {
+        dataTemp = JSON.parse(JSON.stringify(item));
+      }
     })
-    .catch(err => console.log(err))
+    this.setState({
+      dataProInfo: dataTemp,
+      selectedColor: dataTemp.detail.color[0]
+    })
   }
 
   render(){

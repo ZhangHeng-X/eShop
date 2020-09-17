@@ -2,8 +2,8 @@ import React from 'react';
 import { Grid, Header, Button } from 'semantic-ui-react';
 import PT from 'prop-types';
 
-import ConfirmOrder from './ConfirmOrder';
-import OrderBar from './OrderBar';
+import ConfirmOrder from './confirmOrder';
+import OrderBar from './orderBar';
 
 const propTypes = {
   handleBillDone: PT.func

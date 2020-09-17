@@ -32,7 +32,7 @@ class SearchPage extends Component {
 
       if (!temp.length) {this.setState({isNotFound: true})}
 
-      temp.sort(function(){ return 0.5 - Math.random() })
+      temp.sort()
 
       this.setState({dataProducts: temp})
 

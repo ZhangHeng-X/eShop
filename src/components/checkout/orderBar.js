@@ -1,8 +1,8 @@
 import React from 'react';
 import { Grid, Header, Item } from 'semantic-ui-react';
 
-import OrderItem from './OrderItem';
-import OrderBill from './OrderBill';
+import OrderItem from './orderItem';
+import OrderBill from './orderBill';
 
 const OrderBar = (props) => {
   const {

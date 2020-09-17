@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Popup, Item } from 'semantic-ui-react';
-import OrderItem from '../cart/OrderItem';
-import OrderBill from '../cart/OrderBill';
+import OrderItem from '../checkout/orderItem';
+import OrderBill from '../checkout/orderBill';
 import PT from 'prop-types';
 
 const PopupCart = (props) => {
@@ -15,7 +15,6 @@ const PopupCart = (props) => {
     
     const itemsOrder = cart.map(item => {
         valueTotal += item.salePrice * item.quantity;
-        console.log(item.srcImg)
         return(
             <OrderItem key={item.id} {...item} handleChangeItemQuantity={handleChangeItemQuantity}/>
         )
@@ -29,12 +28,14 @@ const PopupCart = (props) => {
 
             <OrderBill orderValue={valueTotal} />
 
-            <Link className='checkout-btn' to='/cart'>CHECKOUT</Link>
+            <Link className='checkout-btn' to='/checkout'>CHECKOUT</Link>
         </div>
     )
 
     const cartWithout = (
-        <div className='popup-cart-without-product'>Your cart is empty!</div>
+        <div className='popup-cart-without-product'>
+            <h3>Your cart is empty! </h3> 
+        </div>
     )
 
     return(

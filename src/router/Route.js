@@ -18,12 +18,12 @@ import SearchPage from '../components/searchPage/searchPage';
 // Detail 商品详情页组件
 import ProductDetailPage from '../components/productDetail/productDetailPage';
 
-// Cart 购物车组件
-import CartSite from '../components/cart/CartSite.js';
+// Checkout 组件
+import CheckoutSite from '../components/checkout/checkout.js';
 
 // Register & Login 登录注册组件
-import LoginSite from '../components/user/LoginSite';
-import RegisterSite from '../components/user/RegisterSite';
+import LoginSite from '../components/user/loginSite';
+import RegisterSite from '../components/user/registerSite';
 
 class RouteApp extends React.Component {
 
@@ -98,8 +98,8 @@ class RouteApp extends React.Component {
             <Redirect from='/eShop' to='/' />
             <Route exact path='/' component={Home} />
             <Route path='/search' component={SearchPage} />
-            <Route path='/cart' children={() => {
-              return (<CartSite isLogin={isLogin} cart={cart} handleLogin={handleLogin} handleChangeItemQuantity={handleChangeItemQuantity} />)
+            <Route path='/checkout' children={() => {
+              return (<CheckoutSite isLogin={isLogin} cart={cart} handleLogin={handleLogin} handleChangeItemQuantity={handleChangeItemQuantity} />)
             }} />
             <Route path='/login' children={() => {
               return ( <LoginSite isLogin={isLogin} handleLogin={handleLogin} />)

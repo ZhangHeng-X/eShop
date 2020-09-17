@@ -3,11 +3,11 @@ import { Route } from 'react-router-dom';
 import { Grid } from 'semantic-ui-react';
 import PT from 'prop-types';
 
-import StepProgress from './StepProgress';
-import SigninStep from './SigninStep';
-import ConfirmStep from './ConfirmStep';
-import BillDoneStep from './BillDoneStep';
-import './cart.css'
+import StepProgress from './stepProgress';
+import SigninStep from './signinStep';
+import ConfirmStep from './confirmStep';
+import BillDoneStep from './billDoneStep';
+import './checkout.css'
 
 const propTypes = {
   isLogin: PT.bool,
@@ -16,7 +16,7 @@ const propTypes = {
   handleChangeItemQuantity: PT.func
 }
 
-class CartSite extends Component {
+class CheckoutSite extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -70,6 +70,6 @@ class CartSite extends Component {
   }
 }
 
-CartSite.propTypes = propTypes;
+CheckoutSite.propTypes = propTypes;
 
-export default CartSite;
+export default CheckoutSite;
