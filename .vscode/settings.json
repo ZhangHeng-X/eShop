@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/cf8a26ad-33a5-4975-99b6-84ad5b0d681f/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/eShopStore"
+}
